@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler010_PrimeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler010_PrimeSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler019_SundayCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler019_SundayCountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler001_FizzBuzzSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler001_FizzBuzzSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,33 +64,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Euler010_PrimeSumTest.live_sumOfPrimes">
+  <component name="RunManager" selected="Gradle.Tests in 'ProjectEuler.test'">
     <configuration name="Euler001_FizzBuzzSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler001_FizzBuzzSumTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Euler001_FizzBuzzSumTest.live_sumOfAllFizzBuzzNumbersUpTo1000" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler001_FizzBuzzSumTest.live_sumOfAllFizzBuzzNumbersUpTo1000&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -164,13 +145,33 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'ProjectEuler.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'ProjectEuler.test'" />
         <item itemvalue="Gradle.Euler010_PrimeSumTest.live_sumOfPrimes" />
         <item itemvalue="Gradle.Euler010_PrimeSumTest.demo_sumOfPrimes" />
         <item itemvalue="Gradle.Euler010_PrimeSumTest.demo_edgeCase_sumOfPrimes" />
         <item itemvalue="Gradle.Euler001_FizzBuzzSumTest" />
-        <item itemvalue="Gradle.Euler001_FizzBuzzSumTest.live_sumOfAllFizzBuzzNumbersUpTo1000" />
       </list>
     </recent_temporary>
   </component>
@@ -193,26 +194,26 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1585962376092" />
-    <state width="1487" height="335" key="GridCell.Tab.0.bottom" timestamp="1585964871150">
+    <state width="1487" height="269" key="GridCell.Tab.0.bottom" timestamp="1586021370159">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="335" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1585964871150" />
-    <state width="1487" height="335" key="GridCell.Tab.0.center" timestamp="1585964871149">
+    <state width="1487" height="269" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1586021370159" />
+    <state width="1487" height="269" key="GridCell.Tab.0.center" timestamp="1586021370158">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="335" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1585964871149" />
-    <state width="1487" height="335" key="GridCell.Tab.0.left" timestamp="1585964871148">
+    <state width="1487" height="269" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1586021370158" />
+    <state width="1487" height="269" key="GridCell.Tab.0.left" timestamp="1586021370157">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="335" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1585964871148" />
-    <state width="1487" height="335" key="GridCell.Tab.0.right" timestamp="1585964871150">
+    <state width="1487" height="269" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1586021370157" />
+    <state width="1487" height="269" key="GridCell.Tab.0.right" timestamp="1586021370158">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="335" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1585964871150" />
-    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585962245694">
+    <state width="1487" height="269" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1586021370158" />
+    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586021954886">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1585962245694" />
+    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1586021954886" />
     <state x="497" y="208" key="run.anything.popup" timestamp="1585963717348">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
