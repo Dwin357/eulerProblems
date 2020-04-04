@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="" />
+    <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler001_FizzBuzzSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler001_FizzBuzzSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler001_FizzBuzzSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler001_FizzBuzzSumTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +31,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1a3On4wXWuG8Vz62UT8hKFMb4cF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
   </component>
@@ -38,6 +54,96 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Euler001_FizzBuzzSumTest">
+    <configuration name="Euler001_FizzBuzzSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler001_FizzBuzzSumTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Euler001_FizzBuzzSumTest.demo_sumOfAllFizzBuzzNumbersUpTo10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler001_FizzBuzzSumTest.demo_sumOfAllFizzBuzzNumbersUpTo10&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Euler001_FizzBuzzSumTest.live_sumOfAllFizzBuzzNumbersUpTo1000" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler001_FizzBuzzSumTest.live_sumOfAllFizzBuzzNumbersUpTo1000&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Euler001_FizzBuzzSumTest.spec_sumOfAllFizzBuzzNumbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler001_FizzBuzzSumTest.spec_sumOfAllFizzBuzzNumbers&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Euler001_FizzBuzzSumTest" />
+        <item itemvalue="Gradle.Euler001_FizzBuzzSumTest.live_sumOfAllFizzBuzzNumbersUpTo1000" />
+        <item itemvalue="Gradle.Euler001_FizzBuzzSumTest.demo_sumOfAllFizzBuzzNumbersUpTo10" />
+        <item itemvalue="Gradle.Euler001_FizzBuzzSumTest.spec_sumOfAllFizzBuzzNumbers" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +156,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1487" height="219" key="GridCell.Tab.0.bottom" timestamp="1585962118627">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="219" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1585962118627" />
+    <state width="1487" height="219" key="GridCell.Tab.0.center" timestamp="1585962118624">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="219" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1585962118624" />
+    <state width="1487" height="219" key="GridCell.Tab.0.left" timestamp="1585962118623">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="219" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1585962118623" />
+    <state width="1487" height="219" key="GridCell.Tab.0.right" timestamp="1585962118625">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="219" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1585962118625" />
     <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585961166902">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

@@ -13,12 +13,22 @@ public class Euler001_FizzBuzzSumTest {
 
 
     @Test
-    public void spec_sumOfAllFizzBuzzNumbers() {
-        int expectedSum = -1;
+    public void demo_sumOfAllFizzBuzzNumbersUpTo10() {
+        int expectedSum = 23;
+        int limit = 10;
+        Euler001_FizzBuzzSum impl = new Euler001_FizzBuzzSum(limit);
+
+        int actualSum = impl.fizzBuzzSum();
+
+        assertEquals(expectedSum, actualSum);
+    }
+    @Test
+    public void live_sumOfAllFizzBuzzNumbersUpTo1000() {
+        int expectedSum = 233168; // derived by running the code
         int limit = 1000;
         Euler001_FizzBuzzSum impl = new Euler001_FizzBuzzSum(limit);
 
-        int actualSum = impl.findSum();
+        int actualSum = impl.fizzBuzzSum();
 
         assertEquals(expectedSum, actualSum);
     }
