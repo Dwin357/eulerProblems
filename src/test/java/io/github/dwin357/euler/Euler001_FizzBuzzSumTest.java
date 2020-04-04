@@ -23,8 +23,7 @@ public class Euler001_FizzBuzzSumTest {
         assertEquals(expectedSum, actualSum);
     }
 
-    // long running test
-    //@Test
+    @Test
     public void live_sumOfAllFizzBuzzNumbersUpTo1000() {
         int expectedSum = 233168; // derived by running the code
         int limit = 1000;

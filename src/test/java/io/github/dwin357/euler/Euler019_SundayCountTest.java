@@ -1,5 +1,9 @@
 package io.github.dwin357.euler;
 
+import io.github.dwin357.concepts.DaysOfWeek;
+import org.junit.Test;
+
+import static io.github.dwin357.concepts.DaysOfWeek.*;
 import static org.junit.Assert.*;
 
 /*
@@ -19,4 +23,17 @@ import static org.junit.Assert.*;
 
 public class Euler019_SundayCountTest {
 
+
+
+    @Test
+    public void mondayPlusFifteenDays_twoSundays() {
+        DaysOfWeek dayOfWk = MONDAY;
+        int numOfDays = 15;
+        int expectedCount = 2;
+        Euler019_SundayCount impl = new Euler019_SundayCount();
+
+        int actual = impl.countSundays(dayOfWk, numOfDays);
+
+        assertEquals(actual, expectedCount);
+    }
 }

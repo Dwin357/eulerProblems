@@ -32,7 +32,8 @@ public class Euler010_PrimeSumTest {
         assertEquals(expected, actual);
     }
 
-    @Test // executes in about 5min
+    //// long running test
+    //@Test // executes in about 5min
     public void live_sumOfPrimes() {
         int expected = 1_179_908_154;
         int limit = 2_000_000;
