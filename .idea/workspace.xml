@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler005_SmallestMultiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler005_SmallestMultipleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler010_PrimeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/xEuler010_PrimeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler019_SundayCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/xEuler019_SundayCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler010_PrimeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/xEuler010_PrimeSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler019_SundayCountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/xEuler019_SundayCountTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
