@@ -3,6 +3,7 @@ package io.github.dwin357.euler;
 import java.util.HashSet;
 import java.util.Set;
 
+// not right
 public class Euler010_PrimeSum {
 
     private int limit;

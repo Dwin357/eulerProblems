@@ -1,9 +1,11 @@
 package io.github.dwin357.euler;
 
-import io.github.dwin357.concepts.DaysOfWeek;
+import io.github.dwin357.concepts.DayOfWeek;
 import org.junit.Test;
 
-import static io.github.dwin357.concepts.DaysOfWeek.*;
+import java.text.ParseException;
+
+import static io.github.dwin357.concepts.DayOfWeek.*;
 import static org.junit.Assert.*;
 
 /*
@@ -26,14 +28,52 @@ public class Euler019_SundayCountTest {
 
 
     @Test
-    public void mondayPlusFifteenDays_twoSundays() {
-        DaysOfWeek dayOfWk = MONDAY;
-        int numOfDays = 15;
+    public void mondayPlusFourteenDays_twoSundays() {
+        DayOfWeek dayOfWk = MONDAY;
+        int numOfDays = 14;
         int expectedCount = 2;
         Euler019_SundayCount impl = new Euler019_SundayCount();
 
         int actual = impl.countSundays(dayOfWk, numOfDays);
 
-        assertEquals(actual, expectedCount);
+        assertEquals(expectedCount, actual);
+    }
+
+    @Test
+    public void fridayPlusTwoDays_oneSunday() {
+        DayOfWeek dayOfWk = FRIDAY;
+        int numOfDays = 2;
+        int expectedCount = 1;
+        Euler019_SundayCount impl = new Euler019_SundayCount();
+
+        int actual = impl.countSundays(dayOfWk, numOfDays);
+
+        assertEquals(expectedCount, actual);
+    }
+
+    @Test
+    public void countDays_sevenDays() throws ParseException {
+        String startDay = "2020.01.03";
+        String endDay = "2020.01.10";
+        int expectedCount = 7;
+        Euler019_SundayCount impl = new Euler019_SundayCount();
+
+        int actualCount = impl.countDays(startDay, endDay);
+
+        assertEquals(expectedCount, actualCount);
+    }
+
+    @Test
+    public void run() throws ParseException {
+        String startDay = "1901.01.01";
+        String endDay = "2000.12.31";
+        int expectedCt = 5217; // not right?
+        Euler019_SundayCount impl = new Euler019_SundayCount();
+
+        int dayCt = impl.countDays(startDay, endDay);
+        int sunCt = impl.countSundays(MONDAY, dayCt);
+
+//        System.out.println(sunCt);
+        assertEquals(expectedCt, sunCt);
     }
 }

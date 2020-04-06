@@ -1,6 +1,6 @@
 package io.github.dwin357.concepts;
 
-public enum DaysOfWeek {
+public enum DayOfWeek {
     SUNDAY,
     MONDAY,
     TUESDAY,

@@ -33,14 +33,15 @@ public class Euler010_PrimeSumTest {
     }
 
     //// long running test
-    //@Test // executes in about 5min
+    @Test // executes in about 5min
     public void live_sumOfPrimes() {
-        int expected = 1_179_908_154;
+        int expected = 1_179_908_154; // not correct?
         int limit = 2_000_000;
         Euler010_PrimeSum impl = new Euler010_PrimeSum(limit);
 
         int actual = impl.primeSum();
 
+        System.out.println(actual);
         assertEquals(expected, actual);
     }
 }
