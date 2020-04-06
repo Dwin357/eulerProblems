@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 // not right?...
-public class Euler019_SundayCount {
+public class xEuler019_SundayCount {
 
     public int countSundays(DayOfWeek dayOfWk, int numOfDays) {
         return (numOfDays+dayOfWk.ordinal()) / 7;

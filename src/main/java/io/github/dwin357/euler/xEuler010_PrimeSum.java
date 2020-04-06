@@ -4,14 +4,14 @@ import java.util.HashSet;
 import java.util.Set;
 
 // not right
-public class Euler010_PrimeSum {
+public class xEuler010_PrimeSum {
 
     private int limit;
     private Set<Integer> knownPrimes;
 
     private int highestCheckedPrime;
 
-    public Euler010_PrimeSum(int limit) {
+    public xEuler010_PrimeSum(int limit) {
         this.limit = limit;
         this.knownPrimes = new HashSet<>();
         notePrime(2);

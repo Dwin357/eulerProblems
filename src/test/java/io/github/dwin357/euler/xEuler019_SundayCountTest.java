@@ -23,7 +23,7 @@ import static org.junit.Assert.*;
  *
  */
 
-public class Euler019_SundayCountTest {
+public class xEuler019_SundayCountTest {
 
 
 
@@ -32,7 +32,7 @@ public class Euler019_SundayCountTest {
         DayOfWeek dayOfWk = MONDAY;
         int numOfDays = 14;
         int expectedCount = 2;
-        Euler019_SundayCount impl = new Euler019_SundayCount();
+        xEuler019_SundayCount impl = new xEuler019_SundayCount();
 
         int actual = impl.countSundays(dayOfWk, numOfDays);
 
@@ -44,7 +44,7 @@ public class Euler019_SundayCountTest {
         DayOfWeek dayOfWk = FRIDAY;
         int numOfDays = 2;
         int expectedCount = 1;
-        Euler019_SundayCount impl = new Euler019_SundayCount();
+        xEuler019_SundayCount impl = new xEuler019_SundayCount();
 
         int actual = impl.countSundays(dayOfWk, numOfDays);
 
@@ -56,7 +56,7 @@ public class Euler019_SundayCountTest {
         String startDay = "2020.01.03";
         String endDay = "2020.01.10";
         int expectedCount = 7;
-        Euler019_SundayCount impl = new Euler019_SundayCount();
+        xEuler019_SundayCount impl = new xEuler019_SundayCount();
 
         int actualCount = impl.countDays(startDay, endDay);
 
@@ -68,7 +68,7 @@ public class Euler019_SundayCountTest {
         String startDay = "1901.01.01";
         String endDay = "2000.12.31";
         int expectedCt = 5217; // not right?
-        Euler019_SundayCount impl = new Euler019_SundayCount();
+        xEuler019_SundayCount impl = new xEuler019_SundayCount();
 
         int dayCt = impl.countDays(startDay, endDay);
         int sunCt = impl.countSundays(MONDAY, dayCt);

@@ -9,12 +9,12 @@ import static org.junit.Assert.*;
  * Find the sum of all the primes below two million.
  *
  */
-public class Euler010_PrimeSumTest {
+public class xEuler010_PrimeSumTest {
     @Test
     public void demo_sumOfPrimes() {
         int expected = 17;
         int limit = 10;
-        Euler010_PrimeSum impl = new Euler010_PrimeSum(limit);
+        xEuler010_PrimeSum impl = new xEuler010_PrimeSum(limit);
 
         int actual = impl.primeSum();
 
@@ -25,7 +25,7 @@ public class Euler010_PrimeSumTest {
     public void demo_edgeCase_sumOfPrimes() {
         int expected = 17;
         int limit = 7;
-        Euler010_PrimeSum impl = new Euler010_PrimeSum(limit);
+        xEuler010_PrimeSum impl = new xEuler010_PrimeSum(limit);
 
         int actual = impl.primeSum();
 
@@ -37,7 +37,7 @@ public class Euler010_PrimeSumTest {
     public void live_sumOfPrimes() {
         int expected = 1_179_908_154; // not correct?
         int limit = 2_000_000;
-        Euler010_PrimeSum impl = new Euler010_PrimeSum(limit);
+        xEuler010_PrimeSum impl = new xEuler010_PrimeSum(limit);
 
         int actual = impl.primeSum();
 
