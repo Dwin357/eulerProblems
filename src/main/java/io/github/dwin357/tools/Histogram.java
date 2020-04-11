@@ -27,7 +27,7 @@ public class Histogram <K> {
         hist.put(key, (get(key)+ct));
     }
 
-    public Set<Map.Entry<K, Integer>> blah() {
+    public Set<Map.Entry<K, Integer>> entrySet() {
         return hist.entrySet();
     }
 
