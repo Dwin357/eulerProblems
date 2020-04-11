@@ -1,5 +1,8 @@
 package io.github.dwin357.euler;
 
+import org.junit.Ignore;
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 /*
@@ -12,4 +15,30 @@ import static org.junit.Assert.*;
 
 public class Euler005_SmallestMultipleTest {
 
+    @Test
+    public void smallestCommonFactor_oneToTen_2520() {
+        int rangeStart = 1;
+        int rangeEnd = 10;
+        int expectedFactor = 2520;
+        Euler005_SmallestMultiple impl = new Euler005_SmallestMultiple();
+
+        int actualFactor = impl.smallestCommonFactor(rangeStart, rangeEnd);
+
+        assertEquals(expectedFactor, actualFactor);
+
+    }
+
+    @Ignore
+    @Test
+    public void smallestCommonFactor_oneToTwenty_unknown() {
+        int rangeStart = 1;
+        int rangeEnd = 20;
+        int expectedFactor = -1;
+        Euler005_SmallestMultiple impl = new Euler005_SmallestMultiple();
+
+        int actualFactor = impl.smallestCommonFactor(rangeStart, rangeEnd);
+
+        assertEquals(expectedFactor, actualFactor);
+
+    }
 }

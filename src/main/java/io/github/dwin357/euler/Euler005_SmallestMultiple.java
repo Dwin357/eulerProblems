@@ -12,4 +12,8 @@ package io.github.dwin357.euler;
  * - multiple all factors in the superset together
  */
 public class Euler005_SmallestMultiple {
+
+    public int smallestCommonFactor(int rangeStart, int rangeEnd) {
+        return 0;
+    }
 }
