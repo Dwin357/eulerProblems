@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler008_LargestProductInSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler008_LargestProductInSeriesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler007_10001Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler007_10001Prime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/PrimeDecomposer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/PrimeDecomposer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler007_10001PrimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler007_10001PrimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,32 +59,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Euler007_10001PrimeTest.givenProblem_tenThousandAndFirstPrime_isUnknown">
+  <component name="RunManager" selected="Gradle.Euler008_LargestProductInSeriesTest.givenExample_4set_5832">
     <configuration name="Euler006_DifSumSqTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler006_DifSumSqTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Euler006_DifSumSqTest.givenExample_1to10_is2640" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler006_DifSumSqTest.givenExample_1to10_is2640&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -156,13 +136,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Euler008_LargestProductInSeriesTest.givenExample_4set_5832" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler008_LargestProductInSeriesTest.givenExample_4set_5832&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Euler008_LargestProductInSeriesTest.givenExample_4set_5832" />
         <item itemvalue="Gradle.Euler007_10001PrimeTest.givenProblem_tenThousandAndFirstPrime_isUnknown" />
         <item itemvalue="Gradle.Euler007_10001PrimeTest.givenExample_sixthPrime_is13" />
         <item itemvalue="Gradle.Euler006_DifSumSqTest" />
         <item itemvalue="Gradle.Euler006_DifSumSqTest.givenProblem_1to100_isUnknown" />
-        <item itemvalue="Gradle.Euler006_DifSumSqTest.givenExample_1to10_is2640" />
       </list>
     </recent_temporary>
   </component>
@@ -185,26 +184,26 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1586143001136" />
-    <state width="1487" height="334" key="GridCell.Tab.0.bottom" timestamp="1586660763807">
+    <state width="1487" height="223" key="GridCell.Tab.0.bottom" timestamp="1586662031098">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="334" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1586660763807" />
-    <state width="1487" height="334" key="GridCell.Tab.0.center" timestamp="1586660763806">
+    <state width="1487" height="223" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1586662031098" />
+    <state width="1487" height="223" key="GridCell.Tab.0.center" timestamp="1586662031096">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="334" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1586660763806" />
-    <state width="1487" height="334" key="GridCell.Tab.0.left" timestamp="1586660763806">
+    <state width="1487" height="223" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1586662031096" />
+    <state width="1487" height="223" key="GridCell.Tab.0.left" timestamp="1586662031095">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="334" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1586660763806" />
-    <state width="1487" height="334" key="GridCell.Tab.0.right" timestamp="1586660763807">
+    <state width="1487" height="223" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1586662031095" />
+    <state width="1487" height="223" key="GridCell.Tab.0.right" timestamp="1586662031097">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="334" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1586660763807" />
-    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586658050071">
+    <state width="1487" height="223" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1586662031097" />
+    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586661159467">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1586658050071" />
+    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1586661159467" />
     <state x="590" y="209" width="477" height="507" key="refactoring.ChangeSignatureDialog" timestamp="1586648503353">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
