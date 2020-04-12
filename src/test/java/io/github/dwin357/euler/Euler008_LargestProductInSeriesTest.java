@@ -3,6 +3,13 @@ package io.github.dwin357.euler;
 import org.junit.Ignore;
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 import static org.junit.Assert.*;
 
 /*
@@ -60,25 +67,80 @@ public class Euler008_LargestProductInSeriesTest {
     @Test
     public void givenExample_4set_5832() {
         int setSize = 4;
-        int expected = 5832;
+        long expected = 5832;
 
         Euler008_LargestProductInSeries impl = new Euler008_LargestProductInSeries();
 
-        int actual = impl.maxSeqProduct(setSize, MAGIC_NUM);
+        long actual = impl.solve(setSize, MAGIC_NUM);
 
         assertEquals(expected, actual);
     }
 
-    @Ignore
     @Test
     public void givenProblem_13set_unknown() {
         int setSize = 13;
-        int expected = 5832;
+        long expected = 23_514_624_000L; // this works
 
         Euler008_LargestProductInSeries impl = new Euler008_LargestProductInSeries();
 
-        int actual = impl.maxSeqProduct(setSize, MAGIC_NUM);
+        long actual = impl.solve(setSize, MAGIC_NUM);
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void impl_correctlyLoadsMasterSet() {
+        Euler008_LargestProductInSeries wrapper = new Euler008_LargestProductInSeries();
+        String loadSet = "123456789";
+        int doesntMatter = 3;
+        Euler008_LargestProductInSeries.Impl impl = wrapper.getImpl(doesntMatter, loadSet);
+
+        int[] expected = {1,2,3,4,5,6,7,8,9};
+        int[] actual = impl.masterSet;
+
+        assertArrayEquals(expected, actual);
+    }
+
+    @Test
+    public void impl_correctlyLoadsSubSets() {
+        Euler008_LargestProductInSeries wrapper = new Euler008_LargestProductInSeries();
+        String loadSet = "123456";
+        int doesntMatter = 3;
+        Euler008_LargestProductInSeries.Impl impl = wrapper.getImpl(doesntMatter, loadSet);
+
+        Euler008_LargestProductInSeries.SubSet[] expected = {
+                wrapper.getSubSet(new int[] {1,2,3}),
+                wrapper.getSubSet(new int[] {2,3,4}),
+                wrapper.getSubSet(new int[] {3,4,5}),
+                wrapper.getSubSet(new int[] {4,5,6})
+        };
+        Euler008_LargestProductInSeries.SubSet[] actual = impl.subSets;
+
+        assertArrayEquals(expected, actual);
+    }
+
+    @Test
+    public void subSet_product() {
+        Euler008_LargestProductInSeries wrapper = new Euler008_LargestProductInSeries();
+        Euler008_LargestProductInSeries.SubSet tested = wrapper.getSubSet(new int[] {4,5,6,7,8});
+
+        long expected = 4*5*6*7*8;
+        long actual = tested.getProduct();
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void impl_maxSubSet() {
+        Euler008_LargestProductInSeries wrapper = new Euler008_LargestProductInSeries();
+        Euler008_LargestProductInSeries.SubSet expected = wrapper.getSubSet(new int[] {4,5,6});
+        String loadSet = "123456";
+        int subSz = 3;
+
+        Euler008_LargestProductInSeries.Impl impl = wrapper.getImpl(subSz, loadSet);
+        Euler008_LargestProductInSeries.SubSet actual = impl.getMaxSubSet();
+
+        assertEquals(expected, actual);
+    }
+
 }
