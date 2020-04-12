@@ -25,11 +25,11 @@ public class Euler007_10001PrimeTest {
         assertEquals(expected, actual);
     }
 
-    @Ignore
+
     @Test
     public void givenProblem_tenThousandAndFirstPrime_isUnknown() {
         int primePosition = 10_001;
-        long expected = 13;
+        long expected = 104_743;
         Euler007_10001Prime impl = new Euler007_10001Prime();
 
         long actual = impl.getPrimeNumber(primePosition);

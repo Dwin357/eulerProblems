@@ -3,6 +3,13 @@ package io.github.dwin357.tools;
 import java.util.ArrayList;
 import java.util.List;
 
+ /*
+  * Credit where credit is due, I totally ripped this class
+  * off from the internet.  This isn't the site I used, but is
+  * the exact same impl so I will use it as my citation
+  * https://www.tutorialspoint.com/Prime-factors-in-java
+  */
+
 public class PrimeDecomposer {
     public List<Integer> decompose(int given) {
         List<Integer> primes = new ArrayList<>();
