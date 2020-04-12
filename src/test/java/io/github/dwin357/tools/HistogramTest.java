@@ -77,4 +77,24 @@ public class HistogramTest  {
 
         assertArrayEquals(expected, actual);
     }
+
+    @Test
+    public void isEmpty_emptyHist_true() {
+        boolean expected = true;
+        Histogram<DayOfWeek> testedHistogram = new Histogram<>();
+
+        boolean actual = testedHistogram.isEmpty();
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void isEmpty_notEmptyHist_false() {
+        boolean expected = false;
+        Histogram<DayOfWeek> testedHistogram = new Histogram<>(Arrays.asList(SATURDAY));
+
+        boolean actual = testedHistogram.isEmpty();
+
+        assertEquals(expected, actual);
+    }
 }

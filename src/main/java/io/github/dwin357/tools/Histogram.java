@@ -31,5 +31,13 @@ public class Histogram <K> {
         return hist.entrySet();
     }
 
+    public boolean isEmpty() {
+        return hist.isEmpty();
+    }
+
+    @Override
+    public String toString() {
+        return hist.toString();
+    }
 
 }

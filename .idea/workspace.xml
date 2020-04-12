@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler005_SmallestMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler005_SmallestMultiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/Histogram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler005_SmallestMultipleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler005_SmallestMultipleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/HistogramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/HistogramTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Euler005_SmallestMultipleTest">
+  <component name="RunManager" selected="Gradle.Euler005_SmallestMultipleTest.smallestCommonFactor_oneToTwenty_unknown">
     <configuration name="Euler005_SmallestMultipleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -78,12 +81,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HistogramTest.implementsAForLoop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Euler005_SmallestMultipleTest.multiplyAllFactors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.HistogramTest.implementsAForLoop&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler005_SmallestMultipleTest.multiplyAllFactors&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -97,12 +100,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HistogramTest.whenAddElement_incrementsCount" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Euler005_SmallestMultipleTest.smallestCommonFactor_oneToTen_2520" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.HistogramTest.whenAddElement_incrementsCount&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler005_SmallestMultipleTest.smallestCommonFactor_oneToTen_2520&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -116,12 +119,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HistogramTest.whenEmptyList_zero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Euler005_SmallestMultipleTest.smallestCommonFactor_oneToTwenty_unknown" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.HistogramTest.whenEmptyList_zero&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler005_SmallestMultipleTest.smallestCommonFactor_oneToTwenty_unknown&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -135,12 +138,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HistogramTest.whenListOfThreeElement_hasHistogramOfThree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HistogramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.HistogramTest.whenListOfThreeElement_hasHistogramOfThree&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.HistogramTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -156,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Euler005_SmallestMultipleTest.smallestCommonFactor_oneToTwenty_unknown" />
+        <item itemvalue="Gradle.Euler005_SmallestMultipleTest.smallestCommonFactor_oneToTen_2520" />
+        <item itemvalue="Gradle.Euler005_SmallestMultipleTest.multiplyAllFactors" />
+        <item itemvalue="Gradle.HistogramTest" />
         <item itemvalue="Gradle.Euler005_SmallestMultipleTest" />
-        <item itemvalue="Gradle.HistogramTest.implementsAForLoop" />
-        <item itemvalue="Gradle.HistogramTest.whenAddElement_incrementsCount" />
-        <item itemvalue="Gradle.HistogramTest.whenEmptyList_zero" />
-        <item itemvalue="Gradle.HistogramTest.whenListOfThreeElement_hasHistogramOfThree" />
       </list>
     </recent_temporary>
   </component>
@@ -183,26 +186,30 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1586143001136" />
-    <state width="1487" height="268" key="GridCell.Tab.0.bottom" timestamp="1586647816198">
+    <state width="1487" height="398" key="GridCell.Tab.0.bottom" timestamp="1586651399094">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="268" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1586647816198" />
-    <state width="1487" height="268" key="GridCell.Tab.0.center" timestamp="1586647816195">
+    <state width="1487" height="398" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1586651399094" />
+    <state width="1487" height="398" key="GridCell.Tab.0.center" timestamp="1586651399093">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="268" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1586647816195" />
-    <state width="1487" height="268" key="GridCell.Tab.0.left" timestamp="1586647816194">
+    <state width="1487" height="398" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1586651399093" />
+    <state width="1487" height="398" key="GridCell.Tab.0.left" timestamp="1586651399092">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="268" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1586647816194" />
-    <state width="1487" height="268" key="GridCell.Tab.0.right" timestamp="1586647816197">
+    <state width="1487" height="398" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1586651399092" />
+    <state width="1487" height="398" key="GridCell.Tab.0.right" timestamp="1586651399094">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="268" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1586647816197" />
+    <state width="1487" height="398" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1586651399094" />
     <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586177538951">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1586177538951" />
+    <state x="590" y="209" width="477" height="507" key="refactoring.ChangeSignatureDialog" timestamp="1586648503353">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="590" y="209" width="477" height="507" key="refactoring.ChangeSignatureDialog/67.27.1533.873@67.27.1533.873" timestamp="1586648503353" />
     <state x="497" y="208" key="run.anything.popup" timestamp="1585963717348">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
