@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler006_DifSumSq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler006_DifSumSqTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler005_SmallestMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler005_SmallestMultiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/Histogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler005_SmallestMultipleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler005_SmallestMultipleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/HistogramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/HistogramTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,33 +52,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="io.github.dwin357.tools" />
       <recent name="io.github.dwin357.euler" />
+      <recent name="io.github.dwin357.tools" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Euler005_SmallestMultipleTest.smallestCommonFactor_oneToTwenty_unknown">
-    <configuration name="Euler005_SmallestMultipleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler005_SmallestMultipleTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.Euler006_DifSumSqTest.givenExample_1to10_is2640">
     <configuration name="Euler005_SmallestMultipleTest.multiplyAllFactors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,6 +117,25 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Euler006_DifSumSqTest.givenExample_1to10_is2640" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler006_DifSumSqTest.givenExample_1to10_is2640&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="HistogramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -159,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Euler006_DifSumSqTest.givenExample_1to10_is2640" />
         <item itemvalue="Gradle.Euler005_SmallestMultipleTest.smallestCommonFactor_oneToTwenty_unknown" />
         <item itemvalue="Gradle.Euler005_SmallestMultipleTest.smallestCommonFactor_oneToTen_2520" />
         <item itemvalue="Gradle.Euler005_SmallestMultipleTest.multiplyAllFactors" />
         <item itemvalue="Gradle.HistogramTest" />
-        <item itemvalue="Gradle.Euler005_SmallestMultipleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,26 +184,26 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1586143001136" />
-    <state width="1487" height="398" key="GridCell.Tab.0.bottom" timestamp="1586651399094">
+    <state width="1487" height="398" key="GridCell.Tab.0.bottom" timestamp="1586652663749">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="398" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1586651399094" />
-    <state width="1487" height="398" key="GridCell.Tab.0.center" timestamp="1586651399093">
+    <state width="1487" height="398" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1586652663749" />
+    <state width="1487" height="398" key="GridCell.Tab.0.center" timestamp="1586652663748">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="398" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1586651399093" />
-    <state width="1487" height="398" key="GridCell.Tab.0.left" timestamp="1586651399092">
+    <state width="1487" height="398" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1586652663748" />
+    <state width="1487" height="398" key="GridCell.Tab.0.left" timestamp="1586652663748">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="398" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1586651399092" />
-    <state width="1487" height="398" key="GridCell.Tab.0.right" timestamp="1586651399094">
+    <state width="1487" height="398" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1586652663748" />
+    <state width="1487" height="398" key="GridCell.Tab.0.right" timestamp="1586652663749">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="398" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1586651399094" />
-    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586177538951">
+    <state width="1487" height="398" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1586652663749" />
+    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586652021971">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1586177538951" />
+    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1586652021971" />
     <state x="590" y="209" width="477" height="507" key="refactoring.ChangeSignatureDialog" timestamp="1586648503353">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
