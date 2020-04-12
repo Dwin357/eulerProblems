@@ -26,6 +26,8 @@ import java.util.stream.IntStream;
  *      - where zero is found, remove indexs +/- size from the zero-id pos
  *   -- loop remaining zeros in set (should be much smaller) to calc product
  *
+ * ...so in the end, this just boiled down to making good sub-obj
+ * w/ propper tests & building up behavior.  Live and learn.
  */
 public class Euler008_LargestProductInSeries {
     public long solve(int size, String masterSet) {
