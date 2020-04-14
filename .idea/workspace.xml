@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler009_PythagoreanTiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler009_PythagoreanTipleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/Triple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/TripleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler008_LargestProductInSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler008_LargestProductInSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler009_PythagoreanTiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler009_PythagoreanTiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler009_PythagoreanTipleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler009_PythagoreanTipleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/xEuler010_PrimeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/xEuler010_PrimeSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/xEuler019_SundayCountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/xEuler019_SundayCountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +28,45 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ProjectEuler" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ProjectEuler" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ProjectEuler" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ProjectEuler" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ProjectEuler" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ProjectEuler" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -39,6 +82,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1a3On4wXWuG8Vz62UT8hKFMb4cF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,23 +100,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="io.github.dwin357.euler" />
       <recent name="io.github.dwin357.tools" />
+      <recent name="io.github.dwin357.euler" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Euler008_LargestProductInSeriesTest">
-    <configuration name="Euler008_LargestProductInSeriesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Euler009_PythagoreanTipleTest.givenProblem_unkn">
+    <configuration name="Euler009_PythagoreanTipleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler008_LargestProductInSeriesTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler009_PythagoreanTipleTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -80,12 +131,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Euler008_LargestProductInSeriesTest.givenExample_4set_5832" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Euler009_PythagoreanTipleTest.filter_abcOrder_eq" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler008_LargestProductInSeriesTest.givenExample_4set_5832&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler009_PythagoreanTipleTest.filter_abcOrder_eq&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -99,12 +150,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Euler008_LargestProductInSeriesTest.givenProblem_13set_unknown" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Euler009_PythagoreanTipleTest.filter_sum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler008_LargestProductInSeriesTest.givenProblem_13set_unknown&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler009_PythagoreanTipleTest.filter_sum&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -118,12 +169,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Euler008_LargestProductInSeriesTest.impl_maxSubSet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Euler009_PythagoreanTipleTest.givenExample_345" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler008_LargestProductInSeriesTest.impl_maxSubSet&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler009_PythagoreanTipleTest.givenExample_345&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -137,12 +188,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Euler008_LargestProductInSeriesTest.subSet_product" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Euler009_PythagoreanTipleTest.givenProblem_unkn" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler008_LargestProductInSeriesTest.subSet_product&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler009_PythagoreanTipleTest.givenProblem_unkn&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -158,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Euler008_LargestProductInSeriesTest" />
-        <item itemvalue="Gradle.Euler008_LargestProductInSeriesTest.givenProblem_13set_unknown" />
-        <item itemvalue="Gradle.Euler008_LargestProductInSeriesTest.givenExample_4set_5832" />
-        <item itemvalue="Gradle.Euler008_LargestProductInSeriesTest.impl_maxSubSet" />
-        <item itemvalue="Gradle.Euler008_LargestProductInSeriesTest.subSet_product" />
+        <item itemvalue="Gradle.Euler009_PythagoreanTipleTest.givenProblem_unkn" />
+        <item itemvalue="Gradle.Euler009_PythagoreanTipleTest.givenExample_345" />
+        <item itemvalue="Gradle.Euler009_PythagoreanTipleTest.filter_sum" />
+        <item itemvalue="Gradle.Euler009_PythagoreanTipleTest.filter_abcOrder_eq" />
+        <item itemvalue="Gradle.Euler009_PythagoreanTipleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,34 +228,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="166" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1586210124947">
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1586824560284">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="641" y="166" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1586210124947" />
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1586824560284" />
     <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586143001136">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1586143001136" />
-    <state width="1487" height="208" key="GridCell.Tab.0.bottom" timestamp="1586717388037">
+    <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl" timestamp="1586823558584">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="208" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1586717388037" />
-    <state width="1487" height="208" key="GridCell.Tab.0.center" timestamp="1586717388034">
+    <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586823558584" />
+    <state width="1487" height="316" key="GridCell.Tab.0.bottom" timestamp="1586827861345">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="208" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1586717388034" />
-    <state width="1487" height="208" key="GridCell.Tab.0.left" timestamp="1586717388033">
+    <state width="1487" height="316" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1586827861345" />
+    <state width="1487" height="316" key="GridCell.Tab.0.center" timestamp="1586827861345">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="208" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1586717388033" />
-    <state width="1487" height="208" key="GridCell.Tab.0.right" timestamp="1586717388036">
+    <state width="1487" height="316" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1586827861345" />
+    <state width="1487" height="316" key="GridCell.Tab.0.left" timestamp="1586827861344">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="208" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1586717388036" />
-    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586717747101">
+    <state width="1487" height="316" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1586827861344" />
+    <state width="1487" height="316" key="GridCell.Tab.0.right" timestamp="1586827861345">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1586717747101" />
+    <state width="1487" height="316" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1586827861345" />
+    <state x="346" y="68" width="1228" height="730" key="SettingsEditor" timestamp="1586823770886">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="346" y="68" width="1228" height="730" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1586823770886" />
+    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586734463877">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1586734463877" />
     <state x="590" y="209" width="477" height="507" key="refactoring.ChangeSignatureDialog" timestamp="1586648503353">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

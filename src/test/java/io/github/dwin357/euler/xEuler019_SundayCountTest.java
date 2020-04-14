@@ -1,6 +1,7 @@
 package io.github.dwin357.euler;
 
 import io.github.dwin357.concepts.DayOfWeek;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.text.ParseException;
@@ -22,7 +23,7 @@ import static org.junit.Assert.*;
  *
  *
  */
-
+@Ignore
 public class xEuler019_SundayCountTest {
 
 

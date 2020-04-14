@@ -1,5 +1,6 @@
 package io.github.dwin357.euler;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -9,6 +10,7 @@ import static org.junit.Assert.*;
  * Find the sum of all the primes below two million.
  *
  */
+@Ignore
 public class xEuler010_PrimeSumTest {
     @Test
     public void demo_sumOfPrimes() {
