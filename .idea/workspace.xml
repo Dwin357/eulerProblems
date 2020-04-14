@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/Triple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/TripleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler009_PythagoreanTiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler009_PythagoreanTiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler009_PythagoreanTipleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler009_PythagoreanTipleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/xEuler010_PrimeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/xEuler010_PrimeSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/xEuler019_SundayCountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/xEuler019_SundayCountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler010_PrimeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/xEuler010_PrimeSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/xEuler010_PrimeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler010_PrimeSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +105,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Euler009_PythagoreanTipleTest.givenProblem_unkn">
+  <component name="RunManager" selected="Gradle.Euler010_PrimeSumTest">
     <configuration name="Euler009_PythagoreanTipleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -131,12 +125,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Euler009_PythagoreanTipleTest.filter_abcOrder_eq" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Euler010_PrimeSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler009_PythagoreanTipleTest.filter_abcOrder_eq&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler010_PrimeSumTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -150,12 +144,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Euler009_PythagoreanTipleTest.filter_sum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Euler010_PrimeSumTest.demo_edgeCase_sumOfPrimes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler009_PythagoreanTipleTest.filter_sum&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler010_PrimeSumTest.demo_edgeCase_sumOfPrimes&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -169,12 +163,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Euler009_PythagoreanTipleTest.givenExample_345" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Euler010_PrimeSumTest.live_sumOfPrimes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler009_PythagoreanTipleTest.givenExample_345&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler010_PrimeSumTest.live_sumOfPrimes&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -188,12 +182,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Euler009_PythagoreanTipleTest.givenProblem_unkn" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="xEuler010_PrimeSumTest.demo_sumOfPrimes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler009_PythagoreanTipleTest.givenProblem_unkn&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.xEuler010_PrimeSumTest.demo_sumOfPrimes&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -209,10 +203,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Euler009_PythagoreanTipleTest.givenProblem_unkn" />
-        <item itemvalue="Gradle.Euler009_PythagoreanTipleTest.givenExample_345" />
-        <item itemvalue="Gradle.Euler009_PythagoreanTipleTest.filter_sum" />
-        <item itemvalue="Gradle.Euler009_PythagoreanTipleTest.filter_abcOrder_eq" />
+        <item itemvalue="Gradle.Euler010_PrimeSumTest" />
+        <item itemvalue="Gradle.Euler010_PrimeSumTest.live_sumOfPrimes" />
+        <item itemvalue="Gradle.Euler010_PrimeSumTest.demo_edgeCase_sumOfPrimes" />
+        <item itemvalue="Gradle.xEuler010_PrimeSumTest.demo_sumOfPrimes" />
         <item itemvalue="Gradle.Euler009_PythagoreanTipleTest" />
       </list>
     </recent_temporary>
@@ -240,22 +234,22 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586823558584" />
-    <state width="1487" height="316" key="GridCell.Tab.0.bottom" timestamp="1586827861345">
+    <state width="1487" height="316" key="GridCell.Tab.0.bottom" timestamp="1586829225985">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="316" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1586827861345" />
-    <state width="1487" height="316" key="GridCell.Tab.0.center" timestamp="1586827861345">
+    <state width="1487" height="316" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1586829225985" />
+    <state width="1487" height="316" key="GridCell.Tab.0.center" timestamp="1586829225983">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="316" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1586827861345" />
-    <state width="1487" height="316" key="GridCell.Tab.0.left" timestamp="1586827861344">
+    <state width="1487" height="316" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1586829225983" />
+    <state width="1487" height="316" key="GridCell.Tab.0.left" timestamp="1586829225982">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="316" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1586827861344" />
-    <state width="1487" height="316" key="GridCell.Tab.0.right" timestamp="1586827861345">
+    <state width="1487" height="316" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1586829225982" />
+    <state width="1487" height="316" key="GridCell.Tab.0.right" timestamp="1586829225984">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="316" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1586827861345" />
+    <state width="1487" height="316" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1586829225984" />
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor" timestamp="1586823770886">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
