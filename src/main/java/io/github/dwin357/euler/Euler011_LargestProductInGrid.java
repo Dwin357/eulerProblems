@@ -1,5 +1,8 @@
 package io.github.dwin357.euler;
- /*
+
+import io.github.dwin357.tools.StringSplitter;
+
+/*
   * 2020.04.13:2210 - First thoughts...
   *   So... Observations
   *   - there are zero's in the mix, which will from "dead spots"
@@ -16,4 +19,18 @@ package io.github.dwin357.euler;
   *       a compositional solution with higher re-usability is prob in order
   */
 public class Euler011_LargestProductInGrid {
+
+    private final int subSetSz;
+    private final int[] masterSet;
+    private final int setEdge;
+
+
+    public Euler011_LargestProductInGrid(int subSetSz, String masterSet, int setEdge) {
+        this.subSetSz = subSetSz;
+        this.setEdge = setEdge;
+        this.masterSet = StringSplitter.splitIntString(" ", masterSet);
+    }
+
+
+
 }
