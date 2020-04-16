@@ -27,7 +27,7 @@ public class PluckVerticalTest {
 
         int[] actual = tested.getVerticleSubsetIndexs(startIndex);
 
-        assertArrayEquals(expected, actual);
+        nullableAssertEquals(expected, actual);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class PluckVerticalTest {
 
         int[] actual = tested.getVerticleSubsetIndexs(startIndex);
 
-        assertArrayEquals(expected, actual);
+        nullableAssertEquals(expected, actual);
     }
 
     @Test
@@ -57,8 +57,74 @@ public class PluckVerticalTest {
 
         int[] actual = tested.getVerticleSubsetIndexs(startIndex);
 
-        assertNull(actual);
+        nullableAssertEquals(expected, actual);
     }
 
-    //TODO: test case for inner + starts at top (less full length) + ends at btm (<full)
+    @Test
+    public void innerCol_midRow_partLength() {
+        int horizontalEdge = 5;
+        int verticleEdge = 6;
+        int subsetSize = 3;
+        PluckVertical tested = new PluckVertical(horizontalEdge, verticleEdge, subsetSize);
+
+        int startIndex = 11;
+        int[] expected = {11, 16, 21};
+
+        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+
+        nullableAssertEquals(expected, actual);
+    }
+
+    @Test
+    public void innerCol_offGrid_partLength() {
+        int horizontalEdge = 5;
+        int verticleEdge = 6;
+        int subsetSize = 3;
+        PluckVertical tested = new PluckVertical(horizontalEdge, verticleEdge, subsetSize);
+
+        int startIndex = 21;
+        int[] expected = null;
+
+        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+
+        nullableAssertEquals(expected, actual);
+    }
+
+    @Test
+    public void lastCol_offGrid_partLength() {
+        int horizontalEdge = 5;
+        int verticleEdge = 6;
+        int subsetSize = 4;
+        PluckVertical tested = new PluckVertical(horizontalEdge, verticleEdge, subsetSize);
+
+        int startIndex = 19;
+        int[] expected = null;
+
+        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+
+        nullableAssertEquals(expected, actual);
+    }
+
+    @Test
+    public void firstCol_offGrid_partLength() {
+        int horizontalEdge = 5;
+        int verticleEdge = 6;
+        int subsetSize = 6;
+        PluckVertical tested = new PluckVertical(horizontalEdge, verticleEdge, subsetSize);
+
+        int startIndex = 5;
+        int[] expected = null;
+
+        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+
+        nullableAssertEquals(expected, actual);
+    }
+
+    private void nullableAssertEquals(int[] expected, int[] actual) {
+        if(expected == null) {
+            assertNull(actual);
+        } else {
+            assertArrayEquals(expected, actual);
+        }
+    }
 }
