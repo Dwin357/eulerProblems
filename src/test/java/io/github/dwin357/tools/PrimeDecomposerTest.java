@@ -1,6 +1,7 @@
 package io.github.dwin357.tools;
 
 import org.apache.commons.collections4.CollectionUtils;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -62,7 +63,6 @@ public class PrimeDecomposerTest {
         assertTrue("7", CollectionUtils.isEqualCollection(expected, actual));
     }
 
-    @Test
     public void display() {
         int given = 2520;
         PrimeDecomposer testedDecomposer = new PrimeDecomposer();

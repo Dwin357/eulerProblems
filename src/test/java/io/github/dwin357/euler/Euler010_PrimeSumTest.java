@@ -41,7 +41,6 @@ public class Euler010_PrimeSumTest {
 
         long actual = impl.primeSum();
 
-        System.out.println(actual);
         assertEquals(expected, actual);
     }
 }

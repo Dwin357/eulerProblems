@@ -120,6 +120,21 @@ public class PluckVerticalTest {
         nullableAssertEquals(expected, actual);
     }
 
+    @Test
+    public void negativeStartIndex() {
+        int horizontalEdge = 5;
+        int verticleEdge = 6;
+        int subsetSize = 6;
+        PluckVertical tested = new PluckVertical(horizontalEdge, verticleEdge, subsetSize);
+
+        int startIndex = -5;
+        int[] expected = null;
+
+        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+
+        nullableAssertEquals(expected, actual);
+    }
+
     private void nullableAssertEquals(int[] expected, int[] actual) {
         if(expected == null) {
             assertNull(actual);

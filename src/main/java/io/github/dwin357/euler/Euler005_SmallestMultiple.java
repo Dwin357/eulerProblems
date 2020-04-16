@@ -31,7 +31,6 @@ public class Euler005_SmallestMultiple {
         for(int num=rangeStart; num<=rangeEnd; num++) {
             expandSet(decomposeNumToPrimeHistogram(num), setOfPrimes);
         }
-        System.out.println(setOfPrimes);
         return multiplyAllFactors(setOfPrimes);
     }
 
