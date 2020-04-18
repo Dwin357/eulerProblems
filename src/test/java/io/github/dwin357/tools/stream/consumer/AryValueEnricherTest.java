@@ -4,6 +4,8 @@ import io.github.dwin357.tools.stream.StreamConsumer;
 import io.github.dwin357.tools.struct.Tupal;
 import org.junit.Rule;
 import org.junit.Test;
+import org.mockito.ArgumentCaptor;
+import org.mockito.Captor;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
@@ -11,6 +13,7 @@ import org.mockito.junit.MockitoRule;
 import java.util.Random;
 
 import static org.junit.Assert.*;
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.verify;
 
 public class AryValueEnricherTest {
@@ -18,6 +21,7 @@ public class AryValueEnricherTest {
     @Rule
     public MockitoRule rule = MockitoJUnit.rule();
     @Mock StreamConsumer downStream;
+    @Captor ArgumentCaptor<Tupal<int[],int[]>> tupalCapture;
 
     private final Random rand = new Random();
 
@@ -34,11 +38,14 @@ public class AryValueEnricherTest {
         int c = masterSet[ci];
         int[] givenIndexs = {ai, bi, ci};
         int[] expectedValues = {a,b,c};
-        Tupal<int[],int[]> expected = new Tupal<>(givenIndexs, expectedValues);
 
-//        tested.consume(givenIndexs);
+        tested.consume(givenIndexs);
 
-        verify(downStream).consume(expected);
+        verify(downStream).consume(tupalCapture.capture());
+        Tupal<int[],int[]> actual = tupalCapture.getValue();
+
+        assertArrayEquals(givenIndexs, actual.getOne());
+        assertArrayEquals(expectedValues, actual.getTwo());
     }
 
     private int[] randomIntAry(Random random, int sz) {
