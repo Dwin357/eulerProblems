@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/junction/Switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/stream/junction/SwitchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/NullFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/stream/consumer/NullFilterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler011_LargestProductInGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler011_LargestProductInGridTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +46,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ProjectEuler" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build setup" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ProjectEuler" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="documentation" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ProjectEuler" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -99,8 +90,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="io.github.dwin357.tools.stream.junction" />
       <recent name="io.github.dwin357.tools.stream.consumer" />
+      <recent name="io.github.dwin357.tools.stream.junction" />
       <recent name="io.github.dwin357.tools.struct" />
       <recent name="io.github.dwin357.tools.plucker" />
       <recent name="io.github.dwin357.tools.stream" />
@@ -109,13 +100,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SwitchTest.delegatesProducerOutputToConsumers">
-    <configuration name="AryValueEnricherTest.plucksIndexsAndPassToDownstream" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.NullFilterTest.nullIsSwallowed">
+    <configuration name="NullFilterTest.nullIsSwallowed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.AryValueEnricherTest.plucksIndexsAndPassToDownstream&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.NullFilterTest.nullIsSwallowed&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -129,12 +120,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LocalExtremaConsumerTest.hodsExpectedValue_seed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NullFilterTest.passesNonNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.LocalExtremaConsumerTest.hodsExpectedValue_seed&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.NullFilterTest.passesNonNull&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -148,70 +139,70 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LocalExtremaConsumerTest.holdsExpectedValue_noSeed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProjectEuler [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.LocalExtremaConsumerTest.holdsExpectedValue_noSeed&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SwitchTest.delegatesProducerOutputToConsumers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProjectEuler [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.junction.SwitchTest.delegatesProducerOutputToConsumers&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value="dependencies" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="XfrmConsumerTest.xfrExecutesFunctionAndDelegatesToDownstream" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProjectEuler [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.XfrmConsumerTest.xfrExecutesFunctionAndDelegatesToDownstream&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value="init" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SwitchTest.delegatesProducerOutputToConsumers" />
-        <item itemvalue="Gradle.XfrmConsumerTest.xfrExecutesFunctionAndDelegatesToDownstream" />
-        <item itemvalue="Gradle.LocalExtremaConsumerTest.hodsExpectedValue_seed" />
-        <item itemvalue="Gradle.LocalExtremaConsumerTest.holdsExpectedValue_noSeed" />
-        <item itemvalue="Gradle.AryValueEnricherTest.plucksIndexsAndPassToDownstream" />
+        <item itemvalue="Gradle.NullFilterTest.nullIsSwallowed" />
+        <item itemvalue="Gradle.NullFilterTest.passesNonNull" />
+        <item itemvalue="Gradle.ProjectEuler [init]" />
+        <item itemvalue="Gradle.ProjectEuler [dependencies]" />
+        <item itemvalue="Gradle.ProjectEuler [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -226,10 +217,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587243331771">
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587245813711">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1587243331771" />
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1587245813711" />
     <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587243428483">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -238,30 +229,30 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586823558584" />
-    <state width="846" height="173" key="GridCell.Tab.0.bottom" timestamp="1587244540228">
+    <state width="1487" height="173" key="GridCell.Tab.0.bottom" timestamp="1587247017430">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="846" height="173" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587244540228" />
-    <state width="846" height="173" key="GridCell.Tab.0.center" timestamp="1587244540225">
+    <state width="1487" height="173" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587247017430" />
+    <state width="1487" height="173" key="GridCell.Tab.0.center" timestamp="1587247017428">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="846" height="173" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587244540225" />
-    <state width="846" height="173" key="GridCell.Tab.0.left" timestamp="1587244540223">
+    <state width="1487" height="173" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587247017428" />
+    <state width="1487" height="173" key="GridCell.Tab.0.left" timestamp="1587247017427">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="846" height="173" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587244540223" />
-    <state width="846" height="173" key="GridCell.Tab.0.right" timestamp="1587244540226">
+    <state width="1487" height="173" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587247017427" />
+    <state width="1487" height="173" key="GridCell.Tab.0.right" timestamp="1587247017430">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="846" height="173" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587244540226" />
+    <state width="1487" height="173" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587247017430" />
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor" timestamp="1586823770886">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1586823770886" />
-    <state x="574" y="179" width="608" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587243684225">
+    <state x="574" y="179" width="608" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587246079583">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="574" y="179" width="608" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1587243684225" />
+    <state x="574" y="179" width="608" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1587246079583" />
     <state x="524" y="74" width="618" height="777" key="find.popup" timestamp="1587002549782">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
