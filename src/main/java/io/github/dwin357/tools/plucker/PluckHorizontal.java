@@ -1,6 +1,6 @@
-package io.github.dwin357.tools;
+package io.github.dwin357.tools.plucker;
 
-public class PluckHorizontal {
+public class PluckHorizontal implements Plucker {
     private final int horizontalEdge;
     private final int verticleEdge;
     private final int subsetSize;
@@ -12,7 +12,8 @@ public class PluckHorizontal {
     }
 
 
-    public int[] getVerticleSubsetIndexs(int startIndex) {
+    @Override
+    public int[] pluckSubsetIndexs(int startIndex) {
         if(isInvalid(startIndex)) {
             return null;
         }
@@ -28,4 +29,6 @@ public class PluckHorizontal {
         int lastIndex = startIndex + (subsetSize-1);
         return ((startIndex / horizontalEdge) != (lastIndex / horizontalEdge)) || startIndex < 0;
     }
+
+
 }

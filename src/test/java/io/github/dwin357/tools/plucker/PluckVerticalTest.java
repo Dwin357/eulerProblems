@@ -1,8 +1,7 @@
-package io.github.dwin357.tools;
+package io.github.dwin357.tools.plucker;
 
+import io.github.dwin357.tools.plucker.PluckVertical;
 import org.junit.Test;
-
-import java.util.Arrays;
 
 import static org.junit.Assert.*;
 /*
@@ -25,7 +24,7 @@ public class PluckVerticalTest {
         int startIndex = 0;
         int[] expected = {0, 5, 10, 15, 20, 25};
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -40,7 +39,7 @@ public class PluckVerticalTest {
         int startIndex = 4;
         int[] expected = {4, 9, 14, 19, 24, 29};
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -55,7 +54,7 @@ public class PluckVerticalTest {
         int startIndex = 9;
         int[] expected = null;
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -70,7 +69,7 @@ public class PluckVerticalTest {
         int startIndex = 11;
         int[] expected = {11, 16, 21};
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -85,7 +84,7 @@ public class PluckVerticalTest {
         int startIndex = 21;
         int[] expected = null;
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -100,7 +99,7 @@ public class PluckVerticalTest {
         int startIndex = 19;
         int[] expected = null;
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -115,7 +114,7 @@ public class PluckVerticalTest {
         int startIndex = 5;
         int[] expected = null;
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -130,7 +129,7 @@ public class PluckVerticalTest {
         int startIndex = -5;
         int[] expected = null;
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }

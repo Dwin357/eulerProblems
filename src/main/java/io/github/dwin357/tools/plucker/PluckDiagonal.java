@@ -1,17 +1,18 @@
-package io.github.dwin357.tools;
+package io.github.dwin357.tools.plucker;
 
-public class PluckDiagonal {
+public class PluckDiagonal implements Plucker {
     private int horizontalEdge;
     private int verticleEdge;
     private int subsetSize;
 
-    public PluckDiagonal(int horizontalEdge, int verticleEdge, int subsetSize) {
+    public PluckDiagonal(int horizontalEdge, int verticleEdge, int subsetSize)  {
         this.horizontalEdge = horizontalEdge;
         this.verticleEdge = verticleEdge;
         this.subsetSize = subsetSize;
     }
 
-    public int[] getDiagonalSubsetIndexs(int startIndex) {
+    @Override
+    public int[] pluckSubsetIndexs(int startIndex) {
         if(isInvalid(startIndex)) {
             return null;
         }

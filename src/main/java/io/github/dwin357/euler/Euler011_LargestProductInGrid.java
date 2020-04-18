@@ -31,6 +31,13 @@ public class Euler011_LargestProductInGrid {
         this.masterSet = StringSplitter.splitIntString(" ", masterSet);
     }
 
+    //TODO:
+    // add interface to pluck-tools
+    // make a producer which ticks through index positions 0 - masterSet.length + delegates to 3 pluckers
+    // add generic wrapper class for pluckers so they can pass their outputs to a "board" class
+    // "board" class ignores nulls, or else xfrm index-ary into real-data ary (for num @ indexs)
+    // "board" class passes data-ary to a cache which maintains data-ary w/ highest product
+    // after producer has pushed through all indexs, retreive+return global-maximum from cache
 
 
 }

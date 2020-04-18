@@ -1,6 +1,6 @@
-package io.github.dwin357.tools;
+package io.github.dwin357.tools.plucker;
 
-public class PluckVertical {
+public class PluckVertical implements Plucker {
     private final int horizontalEdge;
     private final int verticleEdge;
     private final int subSetLength;
@@ -13,14 +13,15 @@ public class PluckVertical {
         this.masterAryLength = horizontalEdge * verticleEdge;
     }
 
-    public int[] getVerticleSubsetIndexs(int indexPosition) {
-        if(isInvalid(indexPosition)) {
+    @Override
+    public int[] pluckSubsetIndexs(int startIndex) {
+        if(isInvalid(startIndex)) {
             return null;
         }
         int[] rtn = new int[subSetLength];
         for(int i=0; i<subSetLength; i++) {
-            rtn[i] = indexPosition;
-            indexPosition += horizontalEdge;
+            rtn[i] = startIndex;
+            startIndex += horizontalEdge;
         }
         return rtn;
     }

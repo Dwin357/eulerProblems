@@ -1,5 +1,6 @@
-package io.github.dwin357.tools;
+package io.github.dwin357.tools.plucker;
 
+import io.github.dwin357.tools.plucker.PluckDiagonal;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -25,7 +26,7 @@ public class PluckDiagonalTest {
         int startIndex = 0;
         int[] expected = {0,6,12,18,24};
 
-        int[] actual = tested.getDiagonalSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -40,7 +41,7 @@ public class PluckDiagonalTest {
         int startIndex = 16;
         int[] expected = {16,22};
 
-        int[] actual = tested.getDiagonalSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -55,7 +56,7 @@ public class PluckDiagonalTest {
         int startIndex = 10;
         int[] expected = {10,16,22,28};
 
-        int[] actual = tested.getDiagonalSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -70,7 +71,7 @@ public class PluckDiagonalTest {
         int startIndex = 2;
         int[] expected = {2,8,14};
 
-        int[] actual = tested.getDiagonalSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -85,7 +86,7 @@ public class PluckDiagonalTest {
         int startIndex = 15;
         int[] expected = null;
 
-        int[] actual = tested.getDiagonalSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -100,7 +101,7 @@ public class PluckDiagonalTest {
         int startIndex = 1;
         int[] expected = null;
 
-        int[] actual = tested.getDiagonalSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -115,7 +116,7 @@ public class PluckDiagonalTest {
         int startIndex = 5;
         int[] expected = {5,11,17,23,29};
 
-        int[] actual = tested.getDiagonalSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -130,7 +131,7 @@ public class PluckDiagonalTest {
         int startIndex = -5;
         int[] expected = null;
 
-        int[] actual = tested.getDiagonalSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }

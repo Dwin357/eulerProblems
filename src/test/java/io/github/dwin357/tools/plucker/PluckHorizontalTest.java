@@ -1,5 +1,6 @@
-package io.github.dwin357.tools;
+package io.github.dwin357.tools.plucker;
 
+import io.github.dwin357.tools.plucker.PluckHorizontal;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -24,7 +25,7 @@ public class PluckHorizontalTest {
         int startIndex = 0;
         int[] expected = {0,1,2,3,4};
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -39,7 +40,7 @@ public class PluckHorizontalTest {
         int startIndex = 25;
         int[] expected = {25,26,27,28,29};
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -54,7 +55,7 @@ public class PluckHorizontalTest {
         int startIndex = 10;
         int[] expected = {10,11,12,13,14};
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -69,7 +70,7 @@ public class PluckHorizontalTest {
         int startIndex = 1;
         int[] expected = {1,2,3};
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -84,7 +85,7 @@ public class PluckHorizontalTest {
         int startIndex = 25;
         int[] expected = {25,26,27};
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -99,7 +100,7 @@ public class PluckHorizontalTest {
         int startIndex = 4;
         int[] expected = null;
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -114,7 +115,7 @@ public class PluckHorizontalTest {
         int startIndex = 17;
         int[] expected = null;
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -129,7 +130,7 @@ public class PluckHorizontalTest {
         int startIndex = 28;
         int[] expected = null;
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
@@ -144,7 +145,7 @@ public class PluckHorizontalTest {
         int startIndex = -28;
         int[] expected = null;
 
-        int[] actual = tested.getVerticleSubsetIndexs(startIndex);
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
 
         nullableAssertEquals(expected, actual);
     }
