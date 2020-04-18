@@ -1,6 +1,6 @@
 package io.github.dwin357.euler;
 
-import io.github.dwin357.tools.Triple;
+import io.github.dwin357.tools.struct.Triple;
 
 import java.util.function.Predicate;
 

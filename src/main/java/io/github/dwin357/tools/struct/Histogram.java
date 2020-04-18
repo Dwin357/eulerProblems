@@ -1,4 +1,4 @@
-package io.github.dwin357.tools;
+package io.github.dwin357.tools.struct;
 
 import java.util.*;
 import java.util.function.Consumer;

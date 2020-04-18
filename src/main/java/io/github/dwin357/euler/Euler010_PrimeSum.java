@@ -1,6 +1,6 @@
 package io.github.dwin357.euler;
 
-import io.github.dwin357.tools.PrimeDecomposer;
+import io.github.dwin357.tools.xfrm.PrimeDecomposer;
 
 import java.util.HashSet;
 import java.util.Set;

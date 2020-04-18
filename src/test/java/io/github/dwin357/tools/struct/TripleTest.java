@@ -1,5 +1,6 @@
-package io.github.dwin357.tools;
+package io.github.dwin357.tools.struct;
 
+import io.github.dwin357.tools.struct.Triple;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

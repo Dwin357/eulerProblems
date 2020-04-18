@@ -1,7 +1,6 @@
 package io.github.dwin357.euler;
 
-import io.github.dwin357.tools.Triple;
-import org.junit.Ignore;
+import io.github.dwin357.tools.struct.Triple;
 import org.junit.Rule;
 import org.junit.Test;
 import org.mockito.Mock;

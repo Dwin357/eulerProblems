@@ -1,9 +1,8 @@
 package io.github.dwin357.euler;
 
-import io.github.dwin357.tools.Histogram;
-import io.github.dwin357.tools.PrimeDecomposer;
+import io.github.dwin357.tools.struct.Histogram;
+import io.github.dwin357.tools.xfrm.PrimeDecomposer;
 
-import java.util.List;
 import java.util.Map;
 
 /*

@@ -2,15 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/plucker/Plucker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/StreamConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/StreamProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/AryValueEnricher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/PluckConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/producer/IntegerProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/struct/Tupal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/stream/consumer/AryValueEnricherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/stream/consumer/PluckConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/stream/producer/IntegerProducerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/struct/TupalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler005_SmallestMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler005_SmallestMultiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler007_10001Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler007_10001Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler009_PythagoreanTiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler009_PythagoreanTiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler010_PrimeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler010_PrimeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler011_LargestProductInGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler011_LargestProductInGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/PluckDiagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/plucker/PluckDiagonal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/PluckHorizontal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/plucker/PluckHorizontal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/PluckVertical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/plucker/PluckVertical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/PluckDiagonalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/PluckDiagonalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/PluckHorizontalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/PluckHorizontalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/PluckVerticalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/PluckVerticalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/struct/Histogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/PrimeDecomposer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/xfrm/PrimeDecomposer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/StringSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/xfrm/StringSplitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/Triple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/struct/Triple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler005_SmallestMultipleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler005_SmallestMultipleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler009_PythagoreanTipleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler009_PythagoreanTipleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/HistogramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/struct/HistogramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/PrimeDecomposerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/xfrm/PrimeDecomposerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/TripleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/struct/TripleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/intSplitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/xfrm/intSplitterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +91,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -105,77 +122,80 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.github.dwin357.tools.stream.consumer" />
+      <recent name="io.github.dwin357.tools.struct" />
+      <recent name="io.github.dwin357.tools.plucker" />
+      <recent name="io.github.dwin357.tools.stream" />
       <recent name="io.github.dwin357.tools" />
-      <recent name="io.github.dwin357.euler" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'ProjectEuler.test'">
+  <component name="RunManager" selected="Gradle.DoubleTest.equals">
+    <configuration name="DoubleTest.equals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.struct.DoubleTest.equals&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="IntegerProducerTest.countsAllTheIntegers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.IntegerProducerTest.countsAllTheIntegers&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PluckConsumerTest.delegatesToPluckerThenPassesDownstream" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.plucker.PluckConsumerTest.delegatesToPluckerThenPassesDownstream&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PluckDiagonalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.PluckDiagonalTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PluckDiagonalTest.firstRow_firstCol_fullDiag" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.PluckDiagonalTest.firstRow_firstCol_fullDiag&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PluckDiagonalTest.firstRow_lastCol_partDiag" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.PluckDiagonalTest.firstRow_lastCol_partDiag&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PluckHorizontalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.PluckHorizontalTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -210,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DoubleTest.equals" />
+        <item itemvalue="Gradle.PluckConsumerTest.delegatesToPluckerThenPassesDownstream" />
+        <item itemvalue="Gradle.IntegerProducerTest.countsAllTheIntegers" />
         <item itemvalue="Gradle.Tests in 'ProjectEuler.test'" />
         <item itemvalue="Gradle.PluckDiagonalTest" />
-        <item itemvalue="Gradle.PluckDiagonalTest.firstRow_lastCol_partDiag" />
-        <item itemvalue="Gradle.PluckDiagonalTest.firstRow_firstCol_fullDiag" />
-        <item itemvalue="Gradle.PluckHorizontalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -229,42 +249,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587218806333">
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587228621321">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1587218806333" />
-    <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586915763326">
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1587228621321" />
+    <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587228848346">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1586915763326" />
+    <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1587228848346" />
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl" timestamp="1586823558584">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586823558584" />
-    <state width="1487" height="316" key="GridCell.Tab.0.bottom" timestamp="1587002643351">
+    <state width="1487" height="316" key="GridCell.Tab.0.bottom" timestamp="1587228096301">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="316" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587002643351" />
-    <state width="1487" height="316" key="GridCell.Tab.0.center" timestamp="1587002643348">
+    <state width="1487" height="316" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587228096301" />
+    <state width="1487" height="316" key="GridCell.Tab.0.center" timestamp="1587228096298">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="316" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587002643348" />
-    <state width="1487" height="316" key="GridCell.Tab.0.left" timestamp="1587002643347">
+    <state width="1487" height="316" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587228096298" />
+    <state width="1487" height="316" key="GridCell.Tab.0.left" timestamp="1587228096296">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="316" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587002643347" />
-    <state width="1487" height="316" key="GridCell.Tab.0.right" timestamp="1587002643349">
+    <state width="1487" height="316" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587228096296" />
+    <state width="1487" height="316" key="GridCell.Tab.0.right" timestamp="1587228096300">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="316" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587002643349" />
+    <state width="1487" height="316" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587228096300" />
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor" timestamp="1586823770886">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1586823770886" />
-    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586998460786">
+    <state x="574" y="179" width="608" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587229345715">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="574" y="179" width="509" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1586998460786" />
+    <state x="574" y="179" width="608" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1587229345715" />
     <state x="524" y="74" width="618" height="777" key="find.popup" timestamp="1587002549782">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

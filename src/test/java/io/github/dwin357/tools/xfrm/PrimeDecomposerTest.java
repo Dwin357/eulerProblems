@@ -1,7 +1,7 @@
-package io.github.dwin357.tools;
+package io.github.dwin357.tools.xfrm;
 
+import io.github.dwin357.tools.xfrm.PrimeDecomposer;
 import org.apache.commons.collections4.CollectionUtils;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.Arrays;

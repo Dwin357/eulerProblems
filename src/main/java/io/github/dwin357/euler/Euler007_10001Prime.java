@@ -18,7 +18,7 @@ package io.github.dwin357.euler;
  */
 
 
-import io.github.dwin357.tools.PrimeDecomposer;
+import io.github.dwin357.tools.xfrm.PrimeDecomposer;
 
 public class Euler007_10001Prime {
     private PrimeDecomposer primeDecomposer;

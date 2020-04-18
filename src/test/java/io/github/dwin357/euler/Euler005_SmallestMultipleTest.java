@@ -1,7 +1,6 @@
 package io.github.dwin357.euler;
 
-import io.github.dwin357.tools.Histogram;
-import org.junit.Ignore;
+import io.github.dwin357.tools.struct.Histogram;
 import org.junit.Test;
 
 import java.util.Arrays;

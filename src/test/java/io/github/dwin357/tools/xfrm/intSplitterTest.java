@@ -1,5 +1,6 @@
-package io.github.dwin357.tools;
+package io.github.dwin357.tools.xfrm;
 
+import io.github.dwin357.tools.xfrm.StringSplitter;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

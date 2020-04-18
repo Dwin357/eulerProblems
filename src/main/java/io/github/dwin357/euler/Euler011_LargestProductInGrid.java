@@ -1,6 +1,6 @@
 package io.github.dwin357.euler;
 
-import io.github.dwin357.tools.StringSplitter;
+import io.github.dwin357.tools.xfrm.StringSplitter;
 
 /*
   * 2020.04.13:2210 - First thoughts...

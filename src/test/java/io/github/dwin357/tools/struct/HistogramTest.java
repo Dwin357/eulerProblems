@@ -1,11 +1,10 @@
-package io.github.dwin357.tools;
+package io.github.dwin357.tools.struct;
 
 import io.github.dwin357.concepts.DayOfWeek;
-import org.apache.commons.collections4.CollectionUtils;
+import io.github.dwin357.tools.struct.Histogram;
 import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Map;
 
 import static io.github.dwin357.concepts.DayOfWeek.*;
