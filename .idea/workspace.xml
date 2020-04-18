@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/StreamConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/StreamProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/AryValueEnricher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/PluckConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/producer/IntegerProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/struct/Tupal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/stream/consumer/AryValueEnricherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/stream/consumer/PluckConsumerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/stream/producer/IntegerProducerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/struct/TupalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/ComparatorConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler005_SmallestMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler005_SmallestMultiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler007_10001Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler007_10001Prime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler009_PythagoreanTiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler009_PythagoreanTiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler010_PrimeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler010_PrimeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler011_LargestProductInGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler011_LargestProductInGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/struct/Histogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/PrimeDecomposer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/xfrm/PrimeDecomposer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/StringSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/xfrm/StringSplitter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/Triple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/struct/Triple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler005_SmallestMultipleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler005_SmallestMultipleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler009_PythagoreanTipleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler009_PythagoreanTipleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/HistogramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/struct/HistogramTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/PrimeDecomposerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/xfrm/PrimeDecomposerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/TripleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/struct/TripleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/intSplitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/xfrm/intSplitterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/struct/Triple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/struct/Triple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +69,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -132,7 +109,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DoubleTest.equals">
+  <component name="RunManager" selected="Gradle.AryValueEnricherTest.plucksIndexsAndPassToDownstream">
+    <configuration name="AryValueEnricherTest.plucksIndexsAndPassToDownstream" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.AryValueEnricherTest.plucksIndexsAndPassToDownstream&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="DoubleTest.equals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -190,25 +186,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PluckDiagonalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.PluckDiagonalTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="Tests in 'ProjectEuler.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -230,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AryValueEnricherTest.plucksIndexsAndPassToDownstream" />
         <item itemvalue="Gradle.DoubleTest.equals" />
         <item itemvalue="Gradle.PluckConsumerTest.delegatesToPluckerThenPassesDownstream" />
         <item itemvalue="Gradle.IntegerProducerTest.countsAllTheIntegers" />
         <item itemvalue="Gradle.Tests in 'ProjectEuler.test'" />
-        <item itemvalue="Gradle.PluckDiagonalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -249,10 +226,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587228621321">
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587237535482">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1587228621321" />
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1587237535482" />
     <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587228848346">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -261,22 +238,22 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586823558584" />
-    <state width="1487" height="316" key="GridCell.Tab.0.bottom" timestamp="1587228096301">
+    <state width="1487" height="257" key="GridCell.Tab.0.bottom" timestamp="1587236276735">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="316" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587228096301" />
-    <state width="1487" height="316" key="GridCell.Tab.0.center" timestamp="1587228096298">
+    <state width="1487" height="257" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587236276735" />
+    <state width="1487" height="257" key="GridCell.Tab.0.center" timestamp="1587236276732">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="316" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587228096298" />
-    <state width="1487" height="316" key="GridCell.Tab.0.left" timestamp="1587228096296">
+    <state width="1487" height="257" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587236276732" />
+    <state width="1487" height="257" key="GridCell.Tab.0.left" timestamp="1587236276731">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="316" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587228096296" />
-    <state width="1487" height="316" key="GridCell.Tab.0.right" timestamp="1587228096300">
+    <state width="1487" height="257" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587236276731" />
+    <state width="1487" height="257" key="GridCell.Tab.0.right" timestamp="1587236276733">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="316" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587228096300" />
+    <state width="1487" height="257" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587236276733" />
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor" timestamp="1586823770886">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

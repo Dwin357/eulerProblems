@@ -7,9 +7,13 @@ public class Triple <H,J,K> {
     private final K three;
 
     public Triple(H first, J second, K third) {
-        one = first;
-        two = second;
-        three = third;
+        this.one = first;
+        this.two = second;
+        this.three = third;
+    }
+
+    public Triple(Tupal<H,J> two, K third) {
+        this(two.getOne(), two.getTwo(), third);
     }
 
     public H getOne() {
