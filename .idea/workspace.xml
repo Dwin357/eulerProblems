@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/plucker/PluckSlashDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/plucker/PluckSlashDiagonalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler011_LargestProductInGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler011_LargestProductInGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/plucker/PluckDiagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/plucker/PluckBackslashDiagonal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/AryValueEnricher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/AryValueEnricher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler011_LargestProductInGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler011_LargestProductInGridTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/plucker/PluckDiagonalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/plucker/PluckBackslashDiagonalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +97,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Euler011_LargestProductInGridTest.givenProblem">
+  <component name="RunManager" selected="Gradle.Tests in 'ProjectEuler.test'">
     <configuration name="Euler011_LargestProductInGridTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -201,8 +195,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Euler011_LargestProductInGridTest.givenProblem" />
         <item itemvalue="Gradle.Tests in 'ProjectEuler.test'" />
+        <item itemvalue="Gradle.Euler011_LargestProductInGridTest.givenProblem" />
         <item itemvalue="Gradle.PluckSlashDiagonalTest.realWorld_indexOutOfBounds" />
         <item itemvalue="Gradle.PluckSlashDiagonalTest" />
         <item itemvalue="Gradle.Euler011_LargestProductInGridTest" />
@@ -232,22 +226,22 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586823558584" />
-    <state width="1487" height="309" key="GridCell.Tab.0.bottom" timestamp="1587261934475">
+    <state width="1487" height="309" key="GridCell.Tab.0.bottom" timestamp="1587262535227">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="309" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587261934475" />
-    <state width="1487" height="309" key="GridCell.Tab.0.center" timestamp="1587261934473">
+    <state width="1487" height="309" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587262535227" />
+    <state width="1487" height="309" key="GridCell.Tab.0.center" timestamp="1587262535226">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="309" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587261934473" />
-    <state width="1487" height="309" key="GridCell.Tab.0.left" timestamp="1587261934472">
+    <state width="1487" height="309" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587262535226" />
+    <state width="1487" height="309" key="GridCell.Tab.0.left" timestamp="1587262535225">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="309" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587261934472" />
-    <state width="1487" height="309" key="GridCell.Tab.0.right" timestamp="1587261934474">
+    <state width="1487" height="309" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587262535225" />
+    <state width="1487" height="309" key="GridCell.Tab.0.right" timestamp="1587262535227">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="309" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587261934474" />
+    <state width="1487" height="309" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587262535227" />
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor" timestamp="1586823770886">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
