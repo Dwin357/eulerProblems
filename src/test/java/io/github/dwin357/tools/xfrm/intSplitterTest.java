@@ -12,7 +12,7 @@ public class intSplitterTest {
         String splitElement = ",";
         int[] expected = {2,3,5,7,11,13};
 
-        int[] actual = StringSplitter.splitIntString(splitElement, intString);
+        int[] actual = StringSplitter.splitIntString(intString,splitElement);
 
         assertArrayEquals(expected, actual);
     }

@@ -9,7 +9,7 @@ public class IntegerProducerTest {
     @Test
     public void countsAllTheIntegers() {
         int start = 5;
-        int end = 8;
+        int end = 9; // does a < comparison
         IntegerProducer tested = new IntegerProducer(start, end);
 
         assertTrue("has next @5", tested.hasNext());

@@ -14,7 +14,7 @@ public class IntegerProducer implements StreamProducer<Integer> {
 
     @Override
     public boolean hasNext() {
-        return currentInteger.compareTo(lastInteger) <= 0;
+        return currentInteger.compareTo(lastInteger) < 0;
     }
 
     @Override

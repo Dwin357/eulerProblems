@@ -1,6 +1,21 @@
 package io.github.dwin357.euler;
 
+import io.github.dwin357.tools.plucker.PluckDiagonal;
+import io.github.dwin357.tools.plucker.PluckHorizontal;
+import io.github.dwin357.tools.plucker.PluckVertical;
+import io.github.dwin357.tools.stream.StreamConsumer;
+import io.github.dwin357.tools.stream.consumer.*;
+import io.github.dwin357.tools.stream.junction.Switch;
+import io.github.dwin357.tools.stream.producer.IntegerProducer;
+import io.github.dwin357.tools.struct.Triple;
+import io.github.dwin357.tools.struct.Tupal;
 import io.github.dwin357.tools.xfrm.StringSplitter;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.function.Function;
 
 /*
   * 2020.04.13:2210 - First thoughts...
@@ -20,17 +35,6 @@ import io.github.dwin357.tools.xfrm.StringSplitter;
   */
 public class Euler011_LargestProductInGrid {
 
-    private final int subSetSz;
-    private final int[] masterSet;
-    private final int setEdge;
-
-
-    public Euler011_LargestProductInGrid(int subSetSz, String masterSet, int setEdge) {
-        this.subSetSz = subSetSz;
-        this.setEdge = setEdge;
-        this.masterSet = StringSplitter.splitIntString(" ", masterSet);
-    }
-
     //TODO:
     // add interface to pluck-tools
     // make a producer which ticks through index positions 0 - masterSet.length + delegates to 3 pluckers
@@ -40,4 +44,42 @@ public class Euler011_LargestProductInGrid {
     // after producer has pushed through all indexs, retreive+return global-maximum from cache
 
 
+    public static Integer solve(String masterSet, int edgeSz, int subSetSz, Comparator<Triple<int[],int[],Integer>> select) {
+        int[] mSet = StringSplitter.splitIntString(masterSet, " "); // format the input
+        LocalExtremaConsumer<Triple<int[],int[],Integer>> terminus = new LocalExtremaConsumer<>(select);
+        Switch<Integer> swtch = new Switch<>(
+                                        buildProducer(mSet),
+                                        buildConsumers(mSet, edgeSz, subSetSz, terminus));
+
+        swtch.flip();
+        Triple<int[],int[],Integer> picked = terminus.getCachedElement();
+        System.out.println(Arrays.toString(picked.getOne()));
+        System.out.println(Arrays.toString(picked.getTwo()));
+        System.out.println(picked.getThree());
+        return picked.getThree();
+    }
+
+    private static IntegerProducer buildProducer(int[] masterSet) {
+        return new IntegerProducer(0, masterSet.length);
+    }
+    private static List<StreamConsumer<Integer>> buildConsumers(int[] masterSet, int edgeSz, int subSetSz, StreamConsumer<Triple<int[],int[],Integer>> terminus) {
+        // This feels like a builder pattern...  maybe on the refactor
+        Function<Tupal<int[],int[]>,Triple<int[],int[],Integer>> appendProduct = (tupal) ->{
+            int[] positions = tupal.getTwo();
+            Integer product = 1;
+            for(int i=0; i<positions.length; i++) {
+                product *= positions[i];
+            }
+            return new Triple<>(tupal, product);
+        };
+        XfrmConsumer<Tupal<int[],int[]>,Triple<int[],int[],Integer>> productFinder = new XfrmConsumer<>(appendProduct, terminus);
+        AryValueEnricher board = new AryValueEnricher(masterSet, productFinder);
+        NullFilter<int[]> filter = new NullFilter<>(board);
+
+        PluckConsumer hor = new PluckConsumer(new PluckHorizontal(edgeSz,edgeSz,subSetSz), filter);
+        PluckConsumer ver = new PluckConsumer(new PluckVertical(edgeSz,edgeSz,subSetSz), filter);
+        PluckConsumer dig = new PluckConsumer(new PluckDiagonal(edgeSz,edgeSz,subSetSz), filter);
+
+        return Arrays.asList(hor,ver,dig);
+    }
 }

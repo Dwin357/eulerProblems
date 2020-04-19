@@ -1,5 +1,12 @@
 package io.github.dwin357.euler;
 
+import io.github.dwin357.tools.struct.Triple;
+import io.github.dwin357.tools.xfrm.StringSplitter;
+import org.junit.Test;
+
+import java.util.Arrays;
+import java.util.Comparator;
+
 import static org.junit.Assert.*;
 
 /*
@@ -56,5 +63,38 @@ public class Euler011_LargestProductInGridTest {
     int edge = 20;
     int subset = 4;
 
+    @Test
+    public void givenExample() {
+        Integer expected = 1788696;
+        Comparator<Triple<int[],int[],Integer>> selectTgtAry = (a, b) -> {
+            // b - a selects biggest num...  so...  need to look this up
+            // -1 -> {a < b}, 0 -> {a == b}, +1 -> {a > b} ...I think
+            int[] tgt = {26,63,78,14};
+            int[] av = a.getTwo();
+            int[] bv = b.getTwo();
+            if(Arrays.equals(tgt,av)) {
+                return -1;
+            } else if(Arrays.equals(tgt,bv)) {
+                return 1;
+            } else {
+                return 0;
+            }
+        };
 
+        Integer actual = Euler011_LargestProductInGrid.solve(num, edge,subset,selectTgtAry);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void givenProblem() {
+        Integer expected = 51267216; // my ans ... is wrong
+        Comparator<Triple<int[],int[],Integer>> selectTgtAry = (a, b) -> {
+            return b.getThree() - a.getThree();
+        };
+
+        Integer actual = Euler011_LargestProductInGrid.solve(num, edge,subset,selectTgtAry);
+
+        assertEquals(expected, actual);
+    }
 }
