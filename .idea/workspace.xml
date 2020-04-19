@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/xfrm/FactoredDecomposer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler011_LargestProductInGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler011_LargestProductInGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/LocalExtremaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/LocalExtremaConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/stream/consumer/LocalExtremaConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/stream/consumer/LocalExtremaConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/producer/TriangleProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler012_DivisibleTriangularNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler012_DivisibleTriangularNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/xfrm/FactoredDecomposer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/xfrm/FactoredDecomposer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/xfrm/FactoredDecomposerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/xfrm/FactoredDecomposerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +60,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -89,34 +90,72 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.github.dwin357.tools.stream.producer" />
+      <recent name="io.github.dwin357.tools.xfrm" />
       <recent name="io.github.dwin357.tools.stream.consumer" />
       <recent name="io.github.dwin357.tools.stream.junction" />
       <recent name="io.github.dwin357.euler" />
-      <recent name="io.github.dwin357.tools.plucker" />
-      <recent name="io.github.dwin357.tools.struct" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'ProjectEuler.test'">
-    <configuration name="ProjectEuler [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FactoredDecomposerTest">
+    <configuration name="FactoredDecomposerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.xfrm.FactoredDecomposerTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FactoredDecomposerTest.one" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.xfrm.FactoredDecomposerTest.one&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FactoredDecomposerTest.three" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.xfrm.FactoredDecomposerTest.three&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="SimpleTerminalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -125,44 +164,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.SimpleTerminalTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SimpleTerminalTest.returnsCachedItemManyTimes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.SimpleTerminalTest.returnsCachedItemManyTimes&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SimpleTerminalTest.returnsLatestNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.SimpleTerminalTest.returnsLatestNumber&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -197,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FactoredDecomposerTest" />
+        <item itemvalue="Gradle.FactoredDecomposerTest.three" />
+        <item itemvalue="Gradle.FactoredDecomposerTest.one" />
         <item itemvalue="Gradle.Tests in 'ProjectEuler.test'" />
         <item itemvalue="Gradle.SimpleTerminalTest" />
-        <item itemvalue="Gradle.SimpleTerminalTest.returnsLatestNumber" />
-        <item itemvalue="Gradle.SimpleTerminalTest.returnsCachedItemManyTimes" />
-        <item itemvalue="Gradle.ProjectEuler [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -216,10 +217,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587312545583">
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587325361845">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1587312545583" />
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1587325361845" />
     <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587257811799">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -228,30 +229,30 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586823558584" />
-    <state width="1487" height="309" key="GridCell.Tab.0.bottom" timestamp="1587313903262">
+    <state width="1487" height="309" key="GridCell.Tab.0.bottom" timestamp="1587324731187">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="309" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587313903262" />
-    <state width="1487" height="309" key="GridCell.Tab.0.center" timestamp="1587313903260">
+    <state width="1487" height="309" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587324731187" />
+    <state width="1487" height="309" key="GridCell.Tab.0.center" timestamp="1587324731185">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="309" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587313903260" />
-    <state width="1487" height="309" key="GridCell.Tab.0.left" timestamp="1587313903259">
+    <state width="1487" height="309" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587324731185" />
+    <state width="1487" height="309" key="GridCell.Tab.0.left" timestamp="1587324731183">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="309" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587313903259" />
-    <state width="1487" height="309" key="GridCell.Tab.0.right" timestamp="1587313903261">
+    <state width="1487" height="309" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587324731183" />
+    <state width="1487" height="309" key="GridCell.Tab.0.right" timestamp="1587324731186">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="309" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587313903261" />
+    <state width="1487" height="309" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587324731186" />
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor" timestamp="1586823770886">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1586823770886" />
-    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587312627392">
+    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587325541771">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1587312627392" />
+    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1587325541771" />
     <state x="524" y="74" width="618" height="777" key="find.popup" timestamp="1587002549782">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

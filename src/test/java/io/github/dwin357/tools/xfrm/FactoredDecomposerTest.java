@@ -4,10 +4,10 @@ import org.apache.commons.collections4.CollectionUtils;
 import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
+import java.util.Set;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class FactoredDecomposerTest {
 
@@ -17,7 +17,7 @@ public class FactoredDecomposerTest {
         List<Integer> expected = Arrays.asList(1);
         FactoredDecomposer tested = new FactoredDecomposer();
 
-        List<Integer> actual = tested.decompose(given);
+        Set<Integer> actual = tested.decompose(given);
 
         assertTrue("one", CollectionUtils.isEqualCollection(expected, actual));
     }
@@ -28,7 +28,7 @@ public class FactoredDecomposerTest {
         List<Integer> expected = Arrays.asList(1,3);
         FactoredDecomposer tested = new FactoredDecomposer();
 
-        List<Integer> actual = tested.decompose(given);
+        Set<Integer> actual = tested.decompose(given);
 
         assertTrue("three", CollectionUtils.isEqualCollection(expected, actual));
     }
@@ -39,7 +39,7 @@ public class FactoredDecomposerTest {
         List<Integer> expected = Arrays.asList(1,2,3,6);
         FactoredDecomposer tested = new FactoredDecomposer();
 
-        List<Integer> actual = tested.decompose(given);
+        Set<Integer> actual = tested.decompose(given);
 
         assertTrue("six", CollectionUtils.isEqualCollection(expected, actual));
     }
@@ -50,7 +50,7 @@ public class FactoredDecomposerTest {
         List<Integer> expected = Arrays.asList(1,2,5,10);
         FactoredDecomposer tested = new FactoredDecomposer();
 
-        List<Integer> actual = tested.decompose(given);
+        Set<Integer> actual = tested.decompose(given);
 
         assertTrue("ten", CollectionUtils.isEqualCollection(expected, actual));
     }
@@ -61,7 +61,7 @@ public class FactoredDecomposerTest {
         List<Integer> expected = Arrays.asList(1,3,5,15);
         FactoredDecomposer tested = new FactoredDecomposer();
 
-        List<Integer> actual = tested.decompose(given);
+        Set<Integer> actual = tested.decompose(given);
 
         assertTrue("fifteen", CollectionUtils.isEqualCollection(expected, actual));
     }
@@ -72,7 +72,7 @@ public class FactoredDecomposerTest {
         List<Integer> expected = Arrays.asList(1,3,7,21);
         FactoredDecomposer tested = new FactoredDecomposer();
 
-        List<Integer> actual = tested.decompose(given);
+        Set<Integer> actual = tested.decompose(given);
 
         assertTrue("twentyOne", CollectionUtils.isEqualCollection(expected, actual));
     }
@@ -83,7 +83,7 @@ public class FactoredDecomposerTest {
         List<Integer> expected = Arrays.asList(1,2,4,7,14,28);
         FactoredDecomposer tested = new FactoredDecomposer();
 
-        List<Integer> actual = tested.decompose(given);
+        Set<Integer> actual = tested.decompose(given);
 
         assertTrue("twentyEight", CollectionUtils.isEqualCollection(expected, actual));
     }
