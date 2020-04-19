@@ -67,8 +67,6 @@ public class Euler011_LargestProductInGridTest {
     public void givenExample() {
         Integer expected = 1788696;
         Comparator<Triple<int[],int[],Integer>> selectTgtAry = (a, b) -> {
-            // b - a selects biggest num...  so...  need to look this up
-            // -1 -> {a < b}, 0 -> {a == b}, +1 -> {a > b} ...I think
             int[] tgt = {26,63,78,14};
             int[] av = a.getTwo();
             int[] bv = b.getTwo();

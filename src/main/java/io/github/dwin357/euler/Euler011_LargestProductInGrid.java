@@ -35,15 +35,6 @@ import java.util.function.Function;
   */
 public class Euler011_LargestProductInGrid {
 
-    //TODO:
-    // add interface to pluck-tools
-    // make a producer which ticks through index positions 0 - masterSet.length + delegates to 3 pluckers
-    // add generic wrapper class for pluckers so they can pass their outputs to a "board" class
-    // "board" class ignores nulls, or else xfrm index-ary into real-data ary (for num @ indexs)
-    // "board" class passes data-ary to a cache which maintains data-ary w/ highest product
-    // after producer has pushed through all indexs, retreive+return global-maximum from cache
-
-
     public static Integer solve(String masterSet, int edgeSz, int subSetSz, Comparator<Triple<int[],int[],Integer>> select) {
         int[] mSet = StringSplitter.splitIntString(masterSet, " "); // format the input
         LocalExtremaConsumer<Triple<int[],int[],Integer>> terminus = new LocalExtremaConsumer<>(select);
@@ -52,11 +43,7 @@ public class Euler011_LargestProductInGrid {
                                         buildConsumers(mSet, edgeSz, subSetSz, terminus));
 
         swtch.flip();
-        Triple<int[],int[],Integer> picked = terminus.getCachedElement();
-//        System.out.println(Arrays.toString(picked.getOne()));
-//        System.out.println(Arrays.toString(picked.getTwo()));
-//        System.out.println(picked.getThree());
-        return picked.getThree();
+        return terminus.getCachedElement().getThree();
     }
 
     private static IntegerProducer buildProducer(int[] masterSet) {
