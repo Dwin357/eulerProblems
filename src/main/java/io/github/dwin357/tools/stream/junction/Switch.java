@@ -7,20 +7,18 @@ import java.util.List;
 
 public class Switch<K> {
     private final StreamProducer<K> producer;
-    private final List<StreamConsumer<K>> consumers;
+    private final StreamConsumer<K> consumer;
 
-    public Switch(StreamProducer<K> producer, List<StreamConsumer<K>> consumers) {
+    public Switch(StreamProducer<K> producer, StreamConsumer<K> consumer) {
         this.producer = producer;
-        this.consumers = consumers;
+        this.consumer = consumer;
     }
 
     public void flip() {
         K input;
         while(producer.hasNext()) {
             input = producer.getNext();
-            for(StreamConsumer<K> channel : consumers) {
-                channel.consume(input);
-            }
+            consumer.consume(input);
         }
     }
 }

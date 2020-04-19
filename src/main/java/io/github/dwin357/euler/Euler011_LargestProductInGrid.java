@@ -6,6 +6,7 @@ import io.github.dwin357.tools.plucker.PluckSlashDiagonal;
 import io.github.dwin357.tools.plucker.PluckVertical;
 import io.github.dwin357.tools.stream.StreamConsumer;
 import io.github.dwin357.tools.stream.consumer.*;
+import io.github.dwin357.tools.stream.junction.Splitter;
 import io.github.dwin357.tools.stream.junction.Switch;
 import io.github.dwin357.tools.stream.producer.IntegerProducer;
 import io.github.dwin357.tools.struct.Triple;
@@ -49,7 +50,7 @@ public class Euler011_LargestProductInGrid {
     private static IntegerProducer buildProducer(int[] masterSet) {
         return new IntegerProducer(0, masterSet.length);
     }
-    private static List<StreamConsumer<Integer>> buildConsumers(int[] masterSet, int edgeSz, int subSetSz, StreamConsumer<Triple<int[],int[],Integer>> terminus) {
+    private static StreamConsumer<Integer> buildConsumers(int[] masterSet, int edgeSz, int subSetSz, StreamConsumer<Triple<int[],int[],Integer>> terminus) {
         // This feels like a builder pattern...  maybe on the refactor
         Function<Tupal<int[],int[]>,Triple<int[],int[],Integer>> appendProduct = (tupal) ->{
             int[] positions = tupal.getTwo();
@@ -68,6 +69,7 @@ public class Euler011_LargestProductInGrid {
         PluckConsumer slsh = new PluckConsumer(new PluckSlashDiagonal(edgeSz,edgeSz,subSetSz), filter);
         PluckConsumer bslh = new PluckConsumer(new PluckBackslashDiagonal(edgeSz,edgeSz,subSetSz), filter);
 
-        return Arrays.asList(hor,ver,slsh,bslh);
+        Splitter<Integer> splitter = new Splitter<>(Arrays.asList(hor,ver,slsh,bslh));
+        return splitter;
     }
 }

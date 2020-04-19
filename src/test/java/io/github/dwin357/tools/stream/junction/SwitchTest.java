@@ -20,9 +20,7 @@ public class SwitchTest {
 
     @Rule public MockitoRule rule = MockitoJUnit.rule();
     @Mock private StreamProducer<Integer> prod;
-    @Mock private StreamConsumer<Integer> con1;
-    @Mock private StreamConsumer<Integer> con2;
-    @Mock private StreamConsumer<Integer> con3;
+    @Mock private StreamConsumer<Integer> con;
     private final Random rand = new Random();
 
     @Test
@@ -33,22 +31,12 @@ public class SwitchTest {
         when(prod.hasNext()).thenReturn(true,true,true,false);
         when(prod.getNext()).thenReturn(a,b,c);
 
-        Switch<Integer> tested = new Switch<>(prod, Arrays.asList(con1,con2,con3));
+        Switch<Integer> tested = new Switch<>(prod, con);
         tested.flip();
 
-        InOrder order1 = inOrder(con1);
-        order1.verify(con1).consume(a);
-        order1.verify(con1).consume(b);
-        order1.verify(con1).consume(c);
-
-        InOrder order2 = inOrder(con2);
-        order2.verify(con2).consume(a);
-        order2.verify(con2).consume(b);
-        order2.verify(con2).consume(c);
-
-        InOrder order3 = inOrder(con3);
-        order3.verify(con3).consume(a);
-        order3.verify(con3).consume(b);
-        order3.verify(con3).consume(c);
+        InOrder order = inOrder(con);
+        order.verify(con).consume(a);
+        order.verify(con).consume(b);
+        order.verify(con).consume(c);
     }
 }
