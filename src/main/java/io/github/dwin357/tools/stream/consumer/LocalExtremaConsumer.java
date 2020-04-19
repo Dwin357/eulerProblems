@@ -1,6 +1,7 @@
 package io.github.dwin357.tools.stream.consumer;
 
 import io.github.dwin357.tools.stream.StreamConsumer;
+import io.github.dwin357.tools.stream.StreamTerminal;
 
 import java.util.Comparator;
 
@@ -11,7 +12,7 @@ import java.util.Comparator;
  * plurals of maximum and minimum) of a function, known collectively
  * as extrema (the plural of extremum)..."
  */
-public class LocalExtremaConsumer<E> implements StreamConsumer<E> {
+public class LocalExtremaConsumer<E> implements StreamConsumer<E>, StreamTerminal<E> {
 
     private final Comparator<E> comp;
     private E cachedElement;
@@ -35,7 +36,8 @@ public class LocalExtremaConsumer<E> implements StreamConsumer<E> {
         }
     }
 
-    public E getCachedElement() {
+    @Override
+    public E peek() {
         return cachedElement;
     }
 }

@@ -49,35 +49,35 @@ public class LocalExtremaConsumerTest {
 
         LocalExtremaConsumer<Tupal<Integer,Integer>> tested = new LocalExtremaConsumer<>(numOrder,zero);
 
-        assertSame(zero, tested.getCachedElement());
+        assertSame(zero, tested.peek());
 
         tested.consume(two);
-        assertSame(two, tested.getCachedElement());
+        assertSame(two, tested.peek());
 
         tested.consume(one);
-        assertSame(two, tested.getCachedElement());
+        assertSame(two, tested.peek());
     }
 
     @Test
     public void holdsExpectedValue_noSeed() {
         LocalExtremaConsumer<Tupal<String,Integer>> tested = new LocalExtremaConsumer<>(fruitOrder);
 
-        assertNull(tested.getCachedElement());
+        assertNull(tested.peek());
 
         tested.consume(peachs);
-        assertSame(peachs, tested.getCachedElement());
+        assertSame(peachs, tested.peek());
 
         tested.consume(pear); // after peachs on spelling
-        assertSame(peachs, tested.getCachedElement());
+        assertSame(peachs, tested.peek());
 
         tested.consume(pairApples); // before peachs on spelling
-        assertSame(pairApples, tested.getCachedElement());
+        assertSame(pairApples, tested.peek());
 
         tested.consume(apple); // after pairApples on count
-        assertSame(pairApples, tested.getCachedElement());
+        assertSame(pairApples, tested.peek());
 
         tested.consume(apples); // before pairApples on count
-        assertSame(apples, tested.getCachedElement());
+        assertSame(apples, tested.peek());
     }
 
 

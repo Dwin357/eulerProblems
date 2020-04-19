@@ -15,7 +15,6 @@ import io.github.dwin357.tools.xfrm.StringSplitter;
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.List;
 import java.util.function.Function;
 
 /*
@@ -44,7 +43,7 @@ public class Euler011_LargestProductInGrid {
                                         buildConsumers(mSet, edgeSz, subSetSz, terminus));
 
         swtch.flip();
-        return terminus.getCachedElement().getThree();
+        return terminus.peek().getThree();
     }
 
     private static IntegerProducer buildProducer(int[] masterSet) {
