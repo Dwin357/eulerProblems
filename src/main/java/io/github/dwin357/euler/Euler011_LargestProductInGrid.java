@@ -1,7 +1,8 @@
 package io.github.dwin357.euler;
 
-import io.github.dwin357.tools.plucker.PluckDiagonal;
+import io.github.dwin357.tools.plucker.PluckBackslashDiagonal;
 import io.github.dwin357.tools.plucker.PluckHorizontal;
+import io.github.dwin357.tools.plucker.PluckSlashDiagonal;
 import io.github.dwin357.tools.plucker.PluckVertical;
 import io.github.dwin357.tools.stream.StreamConsumer;
 import io.github.dwin357.tools.stream.consumer.*;
@@ -11,7 +12,6 @@ import io.github.dwin357.tools.struct.Triple;
 import io.github.dwin357.tools.struct.Tupal;
 import io.github.dwin357.tools.xfrm.StringSplitter;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -53,9 +53,9 @@ public class Euler011_LargestProductInGrid {
 
         swtch.flip();
         Triple<int[],int[],Integer> picked = terminus.getCachedElement();
-        System.out.println(Arrays.toString(picked.getOne()));
-        System.out.println(Arrays.toString(picked.getTwo()));
-        System.out.println(picked.getThree());
+//        System.out.println(Arrays.toString(picked.getOne()));
+//        System.out.println(Arrays.toString(picked.getTwo()));
+//        System.out.println(picked.getThree());
         return picked.getThree();
     }
 
@@ -78,8 +78,9 @@ public class Euler011_LargestProductInGrid {
 
         PluckConsumer hor = new PluckConsumer(new PluckHorizontal(edgeSz,edgeSz,subSetSz), filter);
         PluckConsumer ver = new PluckConsumer(new PluckVertical(edgeSz,edgeSz,subSetSz), filter);
-        PluckConsumer dig = new PluckConsumer(new PluckDiagonal(edgeSz,edgeSz,subSetSz), filter);
+        PluckConsumer slsh = new PluckConsumer(new PluckSlashDiagonal(edgeSz,edgeSz,subSetSz), filter);
+        PluckConsumer bslh = new PluckConsumer(new PluckBackslashDiagonal(edgeSz,edgeSz,subSetSz), filter);
 
-        return Arrays.asList(hor,ver,dig);
+        return Arrays.asList(hor,ver,slsh,bslh);
     }
 }

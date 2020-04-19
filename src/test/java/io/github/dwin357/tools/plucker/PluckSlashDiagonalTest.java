@@ -1,11 +1,12 @@
 package io.github.dwin357.tools.plucker;
 
-import io.github.dwin357.tools.plucker.PluckDiagonal;
 import org.junit.Test;
+
+import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
-public class PluckDiagonalTest {
+public class PluckSlashDiagonalTest {
 
 /*
  *      0,  1,  2,  3,  4,
@@ -21,85 +22,11 @@ public class PluckDiagonalTest {
         int horizontalEdge = 5;
         int verticleEdge = 6;
         int subsetSize = 5;
-        PluckDiagonal tested = new PluckDiagonal(horizontalEdge, verticleEdge, subsetSize);
 
-        int startIndex = 0;
-        int[] expected = {0,6,12,18,24};
+        PluckSlashDiagonal tested = new PluckSlashDiagonal(horizontalEdge, verticleEdge, subsetSize);
 
-        int[] actual = tested.pluckSubsetIndexs(startIndex);
-
-        nullableAssertEquals(expected, actual);
-    }
-
-    @Test
-    public void innerRow_innerCol_partDiag() {
-        int horizontalEdge = 5;
-        int verticleEdge = 6;
-        int subsetSize = 2;
-        PluckDiagonal tested = new PluckDiagonal(horizontalEdge, verticleEdge, subsetSize);
-
-        int startIndex = 16;
-        int[] expected = {16,22};
-
-        int[] actual = tested.pluckSubsetIndexs(startIndex);
-
-        nullableAssertEquals(expected, actual);
-    }
-
-    @Test
-    public void lastRow_firstCol_partDiag() {
-        int horizontalEdge = 5;
-        int verticleEdge = 6;
-        int subsetSize = 4;
-        PluckDiagonal tested = new PluckDiagonal(horizontalEdge, verticleEdge, subsetSize);
-
-        int startIndex = 10;
-        int[] expected = {10,16,22,28};
-
-        int[] actual = tested.pluckSubsetIndexs(startIndex);
-
-        nullableAssertEquals(expected, actual);
-    }
-
-    @Test
-    public void firstRow_lastCol_partDiag() {
-        int horizontalEdge = 5;
-        int verticleEdge = 6;
-        int subsetSize = 3;
-        PluckDiagonal tested = new PluckDiagonal(horizontalEdge, verticleEdge, subsetSize);
-
-        int startIndex = 2;
-        int[] expected = {2,8,14};
-
-        int[] actual = tested.pluckSubsetIndexs(startIndex);
-
-        nullableAssertEquals(expected, actual);
-    }
-
-    @Test
-    public void breaksBottomRow() {
-        int horizontalEdge = 5;
-        int verticleEdge = 6;
-        int subsetSize = 4;
-        PluckDiagonal tested = new PluckDiagonal(horizontalEdge, verticleEdge, subsetSize);
-
-        int startIndex = 15;
-        int[] expected = null;
-
-        int[] actual = tested.pluckSubsetIndexs(startIndex);
-
-        nullableAssertEquals(expected, actual);
-    }
-
-    @Test
-    public void breaksLastCol() {
-        int horizontalEdge = 5;
-        int verticleEdge = 6;
-        int subsetSize = 5;
-        PluckDiagonal tested = new PluckDiagonal(horizontalEdge, verticleEdge, subsetSize);
-
-        int startIndex = 1;
-        int[] expected = null;
+        int startIndex = 4;
+        int[] expected = {4,8,12,16,20};
 
         int[] actual = tested.pluckSubsetIndexs(startIndex);
 
@@ -111,10 +38,91 @@ public class PluckDiagonalTest {
         int horizontalEdge = 5;
         int verticleEdge = 6;
         int subsetSize = 5;
-        PluckDiagonal tested = new PluckDiagonal(horizontalEdge, verticleEdge, subsetSize);
 
-        int startIndex = 5;
-        int[] expected = {5,11,17,23,29};
+        PluckSlashDiagonal tested = new PluckSlashDiagonal(horizontalEdge, verticleEdge, subsetSize);
+
+        int startIndex = 9;
+        int[] expected = {9,13,17,21,25};
+
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
+
+        nullableAssertEquals(expected, actual);
+    }
+
+    @Test
+    public void innerRow_innerCol_partDiag() {
+        int horizontalEdge = 5;
+        int verticleEdge = 6;
+        int subsetSize = 2;
+
+        PluckSlashDiagonal tested = new PluckSlashDiagonal(horizontalEdge, verticleEdge, subsetSize);
+
+        int startIndex = 17;
+        int[] expected = {17,21};
+
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
+
+        nullableAssertEquals(expected, actual);
+    }
+
+    @Test
+    public void lastRow_lastCol_partDiag() {
+        int horizontalEdge = 5;
+        int verticleEdge = 6;
+        int subsetSize = 4;
+
+        PluckSlashDiagonal tested = new PluckSlashDiagonal(horizontalEdge, verticleEdge, subsetSize);
+
+        int startIndex = 14;
+        int[] expected = {14,18,22,26};
+
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
+
+        nullableAssertEquals(expected, actual);
+    }
+
+    @Test
+    public void firstRow_firstCol_partDiag() {
+        int horizontalEdge = 5;
+        int verticleEdge = 6;
+        int subsetSize = 3;
+
+        PluckSlashDiagonal tested = new PluckSlashDiagonal(horizontalEdge, verticleEdge, subsetSize);
+
+        int startIndex = 2;
+        int[] expected = {2,6,10};
+
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
+
+        nullableAssertEquals(expected, actual);
+    }
+
+    @Test
+    public void breaksBottomRow() {
+        int horizontalEdge = 5;
+        int verticleEdge = 6;
+        int subsetSize = 5;
+
+        PluckSlashDiagonal tested = new PluckSlashDiagonal(horizontalEdge, verticleEdge, subsetSize);
+
+        int startIndex = 15;
+        int[] expected = null;
+
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
+
+        nullableAssertEquals(expected, actual);
+    }
+
+    @Test
+    public void breaksFirstCol() {
+        int horizontalEdge = 5;
+        int verticleEdge = 6;
+        int subsetSize = 5;
+
+        PluckSlashDiagonal tested = new PluckSlashDiagonal(horizontalEdge, verticleEdge, subsetSize);
+
+        int startIndex = 3;
+        int[] expected = null;
 
         int[] actual = tested.pluckSubsetIndexs(startIndex);
 
@@ -126,7 +134,7 @@ public class PluckDiagonalTest {
         int horizontalEdge = 5;
         int verticleEdge = 6;
         int subsetSize = 5;
-        PluckDiagonal tested = new PluckDiagonal(horizontalEdge, verticleEdge, subsetSize);
+        PluckSlashDiagonal tested = new PluckSlashDiagonal(horizontalEdge, verticleEdge, subsetSize);
 
         int startIndex = -5;
         int[] expected = null;
@@ -136,9 +144,24 @@ public class PluckDiagonalTest {
         nullableAssertEquals(expected, actual);
     }
 
+    @Test
+    public void realWorld_indexOutOfBounds() {
+        int horizontalEdge = 20;
+        int verticleEdge = 20;
+        int subsetSize = 4;
+        PluckSlashDiagonal tested = new PluckSlashDiagonal(horizontalEdge, verticleEdge, subsetSize);
+
+        int startIndex = 343;
+        int[] expected = null;
+
+        int[] actual = tested.pluckSubsetIndexs(startIndex);
+
+        nullableAssertEquals(expected, actual);
+    }
+
     private void nullableAssertEquals(int[] expected, int[] actual) {
         if(expected == null) {
-            assertNull(actual);
+            assertNull(String.format("Expected null, but was:%s",Arrays.toString(actual)),actual);
         } else {
             assertArrayEquals(expected, actual);
         }

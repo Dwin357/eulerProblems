@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/plucker/PluckSlashDiagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/plucker/PluckSlashDiagonalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler011_LargestProductInGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler011_LargestProductInGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/producer/IntegerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/producer/IntegerProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/xfrm/StringSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/xfrm/StringSplitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/plucker/PluckDiagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/plucker/PluckBackslashDiagonal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/AryValueEnricher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/AryValueEnricher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler011_LargestProductInGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler011_LargestProductInGridTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/stream/producer/IntegerProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/stream/producer/IntegerProducerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/xfrm/intSplitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/xfrm/intSplitterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/plucker/PluckDiagonalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/plucker/PluckBackslashDiagonalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,10 +93,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.github.dwin357.tools.plucker" />
       <recent name="io.github.dwin357.tools.stream.consumer" />
       <recent name="io.github.dwin357.tools.stream.junction" />
       <recent name="io.github.dwin357.tools.struct" />
-      <recent name="io.github.dwin357.tools.plucker" />
       <recent name="io.github.dwin357.tools.stream" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -103,12 +104,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Euler011_LargestProductInGridTest.givenProblem">
-    <configuration name="Euler011_LargestProductInGridTest.givenExample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Euler011_LargestProductInGridTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler011_LargestProductInGridTest.givenExample&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler011_LargestProductInGridTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -141,12 +142,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IntegerProducerTest.countsAllTheIntegers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PluckSlashDiagonalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.producer.IntegerProducerTest.countsAllTheIntegers&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.plucker.PluckSlashDiagonalTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -160,12 +161,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NullFilterTest.nullIsSwallowed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PluckSlashDiagonalTest.realWorld_indexOutOfBounds" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.NullFilterTest.nullIsSwallowed&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.plucker.PluckSlashDiagonalTest.realWorld_indexOutOfBounds&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -179,12 +180,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="intSplitterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'ProjectEuler.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.xfrm.intSplitterTest&quot;" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -201,10 +202,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Euler011_LargestProductInGridTest.givenProblem" />
-        <item itemvalue="Gradle.Euler011_LargestProductInGridTest.givenExample" />
-        <item itemvalue="Gradle.intSplitterTest" />
-        <item itemvalue="Gradle.IntegerProducerTest.countsAllTheIntegers" />
-        <item itemvalue="Gradle.NullFilterTest.nullIsSwallowed" />
+        <item itemvalue="Gradle.Tests in 'ProjectEuler.test'" />
+        <item itemvalue="Gradle.PluckSlashDiagonalTest.realWorld_indexOutOfBounds" />
+        <item itemvalue="Gradle.PluckSlashDiagonalTest" />
+        <item itemvalue="Gradle.Euler011_LargestProductInGridTest" />
       </list>
     </recent_temporary>
   </component>
@@ -219,42 +220,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587245813711">
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587258002107">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1587245813711" />
-    <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587243428483">
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1587258002107" />
+    <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587257811799">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1587243428483" />
+    <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1587257811799" />
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl" timestamp="1586823558584">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586823558584" />
-    <state width="1487" height="201" key="GridCell.Tab.0.bottom" timestamp="1587256779724">
+    <state width="1487" height="309" key="GridCell.Tab.0.bottom" timestamp="1587261934475">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="201" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587256779724" />
-    <state width="1487" height="201" key="GridCell.Tab.0.center" timestamp="1587256779721">
+    <state width="1487" height="309" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587261934475" />
+    <state width="1487" height="309" key="GridCell.Tab.0.center" timestamp="1587261934473">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="201" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587256779721" />
-    <state width="1487" height="201" key="GridCell.Tab.0.left" timestamp="1587256779719">
+    <state width="1487" height="309" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587261934473" />
+    <state width="1487" height="309" key="GridCell.Tab.0.left" timestamp="1587261934472">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="201" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587256779719" />
-    <state width="1487" height="201" key="GridCell.Tab.0.right" timestamp="1587256779723">
+    <state width="1487" height="309" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587261934472" />
+    <state width="1487" height="309" key="GridCell.Tab.0.right" timestamp="1587261934474">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="201" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587256779723" />
+    <state width="1487" height="309" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587261934474" />
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor" timestamp="1586823770886">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1586823770886" />
-    <state x="574" y="179" width="608" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587246079583">
+    <state x="574" y="179" width="608" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587258233255">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="574" y="179" width="608" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1587246079583" />
+    <state x="574" y="179" width="608" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1587258233255" />
     <state x="524" y="74" width="618" height="777" key="find.popup" timestamp="1587002549782">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

@@ -3,6 +3,8 @@ package io.github.dwin357.tools.stream.consumer;
 import io.github.dwin357.tools.stream.StreamConsumer;
 import io.github.dwin357.tools.struct.Tupal;
 
+import java.util.Arrays;
+
 public class AryValueEnricher implements StreamConsumer<int[]> {
 
     private final int[] masterSet;

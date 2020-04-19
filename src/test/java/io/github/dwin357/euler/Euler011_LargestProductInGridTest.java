@@ -88,7 +88,8 @@ public class Euler011_LargestProductInGridTest {
 
     @Test
     public void givenProblem() {
-        Integer expected = 51267216; // my ans ... is wrong
+
+        Integer expected = 70600674; // my ans
         Comparator<Triple<int[],int[],Integer>> selectTgtAry = (a, b) -> {
             return b.getThree() - a.getThree();
         };
