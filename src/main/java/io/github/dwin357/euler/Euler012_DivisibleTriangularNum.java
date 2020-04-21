@@ -8,7 +8,7 @@ package io.github.dwin357.euler;
  * However this will force a new producer-component (working-name "breaker")
  *   This is needed b/c the trig-prod is an infinite stream/series
  *     so the breaker is a way short the infinite run
- *   This also then begs the question: the breaker needs to be constantly cking
+ *  x - This also then begs the question: the breaker needs to be constantly cking
  *     some measurement, and break flow when a certain condition is met...
  *  x - This implies to me another new consumer-component (working-name "terminal")
  *     which essentially implements a peek function
