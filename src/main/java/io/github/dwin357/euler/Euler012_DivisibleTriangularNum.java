@@ -6,9 +6,12 @@ import io.github.dwin357.tools.stream.junction.Splitter;
 import io.github.dwin357.tools.stream.junction.Switch;
 import io.github.dwin357.tools.stream.producer.Breaker;
 import io.github.dwin357.tools.stream.producer.TriangleProducer;
+import io.github.dwin357.tools.struct.Triple;
 import io.github.dwin357.tools.xfrm.FactoredDecomposer;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.Set;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -37,22 +40,25 @@ public class Euler012_DivisibleTriangularNum {
 
     public static int firstTriNumWithThresholdFactors(int threshold) {
         TriangleProducer triProd = new TriangleProducer();
-        SimpleTerminal<Integer> factorCtTerminal = new SimpleTerminal<>(0);
-        Predicate<Integer> breakCondition = (factorCt) -> {
-            return factorCt >= threshold;
+        SimpleTerminal<Triple<Integer, Set<Integer>,Integer>> factorCtTerminal = new SimpleTerminal<>(new Triple<>(null,null,0));
+        Predicate<Triple<Integer, Set<Integer>,Integer>> breakCondition = (factorCt) -> {
+            return factorCt.getThree() >= threshold;
         };
         FactoredDecomposer decomp = new FactoredDecomposer();
-        Function<Integer,Integer> factorCounter = (tri) -> {
-            return decomp.decompose(tri).size();
+        Function<Integer,Triple<Integer, Set<Integer>,Integer>> factorCounter = (tri) -> {
+            Set<Integer> factors = decomp.decompose(tri);
+            return new Triple<>(tri, factors, factors.size());
         };
-        Breaker<Integer,Integer> thresholdBreaker = new Breaker<>(triProd,factorCtTerminal,breakCondition);
-        XfrmConsumer<Integer,Integer> factComp = new XfrmConsumer<>(factorCounter,factorCtTerminal);
+        Breaker<Integer,Triple<Integer, Set<Integer>,Integer>> thresholdBreaker = new Breaker<>(triProd,factorCtTerminal,breakCondition);
+        XfrmConsumer<Integer,Triple<Integer, Set<Integer>,Integer>> factComp = new XfrmConsumer<>(factorCounter,factorCtTerminal);
         SimpleTerminal<Integer> triagTerminal = new SimpleTerminal<>();
         Splitter<Integer> triagSplitter = new Splitter<>(Arrays.asList(factComp,triagTerminal));
         Switch<Integer> switchh = new Switch<>(thresholdBreaker,triagSplitter);
+//        Switch<Integer> switchh = new Switch<>(thresholdBreaker,factComp);
 
         switchh.flip();
         return triagTerminal.peek();
+//        return -1;
     }
 
 }

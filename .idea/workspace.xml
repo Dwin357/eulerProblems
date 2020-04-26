@@ -4,8 +4,8 @@
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler012_DivisibleTriangularNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler012_DivisibleTriangularNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/SimpleTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/SimpleTerminal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler012_DivisibleTriangularNumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler012_DivisibleTriangularNumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/xfrm/FactoredDecomposerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/tools/xfrm/FactoredDecomposerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,32 +99,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Euler012_DivisibleTriangularNumTest">
+  <component name="RunManager" selected="Gradle.Euler012_DivisibleTriangularNumTest.givenProblem">
     <configuration name="BreakerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.producer.BreakerTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BreakerTest.hasNextWhileConditionTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.producer.BreakerTest.hasNextWhileConditionTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -195,13 +176,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="FactoredDecomposerTest.oneTwenty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.xfrm.FactoredDecomposerTest.oneTwenty&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Euler012_DivisibleTriangularNumTest" />
         <item itemvalue="Gradle.Euler012_DivisibleTriangularNumTest.givenProblem" />
         <item itemvalue="Gradle.Euler012_DivisibleTriangularNumTest.givenExample" />
+        <item itemvalue="Gradle.FactoredDecomposerTest.oneTwenty" />
+        <item itemvalue="Gradle.Euler012_DivisibleTriangularNumTest" />
         <item itemvalue="Gradle.BreakerTest" />
-        <item itemvalue="Gradle.BreakerTest.hasNextWhileConditionTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -228,22 +228,22 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586823558584" />
-    <state width="1487" height="203" key="GridCell.Tab.0.bottom" timestamp="1587432167245">
+    <state width="1487" height="577" key="GridCell.Tab.0.bottom" timestamp="1587769508307">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="203" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587432167245" />
-    <state width="1487" height="203" key="GridCell.Tab.0.center" timestamp="1587432167244">
+    <state width="1487" height="577" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587769508307" />
+    <state width="1487" height="577" key="GridCell.Tab.0.center" timestamp="1587769508306">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="203" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587432167244" />
-    <state width="1487" height="203" key="GridCell.Tab.0.left" timestamp="1587432167244">
+    <state width="1487" height="577" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587769508306" />
+    <state width="1487" height="577" key="GridCell.Tab.0.left" timestamp="1587769508305">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="203" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587432167244" />
-    <state width="1487" height="203" key="GridCell.Tab.0.right" timestamp="1587432167245">
+    <state width="1487" height="577" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587769508305" />
+    <state width="1487" height="577" key="GridCell.Tab.0.right" timestamp="1587769508306">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="203" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587432167245" />
+    <state width="1487" height="577" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587769508306" />
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor" timestamp="1586823770886">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

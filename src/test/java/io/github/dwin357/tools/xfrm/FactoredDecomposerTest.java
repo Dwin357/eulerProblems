@@ -87,4 +87,14 @@ public class FactoredDecomposerTest {
 
         assertTrue("twentyEight", CollectionUtils.isEqualCollection(expected, actual));
     }
+
+    @Test
+    public void oneTwenty() {
+        int given = 120;
+        List<Integer> expected = Arrays.asList(1,2,3,4,5,6,8,10,12,15,20,24,30,40,60,120); // 16
+        FactoredDecomposer tested = new FactoredDecomposer();
+        System.out.println(expected.size());
+        Set<Integer> actual = tested.decompose(given);
+        assertTrue("oneTwenty", CollectionUtils.isEqualCollection(expected, actual));
+    }
 }

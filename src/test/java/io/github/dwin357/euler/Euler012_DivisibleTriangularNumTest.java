@@ -36,8 +36,8 @@ public class Euler012_DivisibleTriangularNumTest {
 
     @Test
     public void givenProblem() {
-        int threshHold = 15;
-        int expected = 120; // my ans... is wrong
+        int threshHold = 500;
+        int expected = 76576500; // my ans... is wrong
 
         int actual = Euler012_DivisibleTriangularNum.firstTriNumWithThresholdFactors(threshHold);
 
