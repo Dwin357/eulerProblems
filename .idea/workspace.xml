@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/Aggergator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/AryAccessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler013_LargeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler013_LargeSum.java" afterDir="false" />
     </list>
@@ -88,23 +88,23 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.github.dwin357.tools.stream.consumer" />
       <recent name="io.github.dwin357.euler" />
       <recent name="io.github.dwin357.tools.stream.producer" />
       <recent name="io.github.dwin357.tools.xfrm" />
-      <recent name="io.github.dwin357.tools.stream.consumer" />
       <recent name="io.github.dwin357.tools.stream.junction" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Euler013_LargeSumTest.workshop">
-    <configuration name="Euler012_DivisibleTriangularNumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AggergatorTest">
+    <configuration name="AggergatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler012_DivisibleTriangularNumTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.AggergatorTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -118,12 +118,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Euler012_DivisibleTriangularNumTest.givenExample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AggergatorTest.threeConstructorArg_oneAdds_delegatesValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler012_DivisibleTriangularNumTest.givenExample&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.AggergatorTest.threeConstructorArg_oneAdds_delegatesValue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -137,12 +137,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Euler012_DivisibleTriangularNumTest.givenProblem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AggergatorTest.threeConstructorArg_twoAdds_delegatesValues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler012_DivisibleTriangularNumTest.givenProblem&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.AggergatorTest.threeConstructorArg_twoAdds_delegatesValues&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -156,12 +156,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Euler013_LargeSumTest.workshop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AggergatorTest.threeConstructorArg_twoAdds_returnsNewValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler013_LargeSumTest.workshop&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.AggergatorTest.threeConstructorArg_twoAdds_returnsNewValue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -175,12 +175,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FactoredDecomposerTest.oneTwenty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AggergatorTest.twoConstructorArg_twoAdds_returnsNewValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.xfrm.FactoredDecomposerTest.oneTwenty&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.AggergatorTest.twoConstructorArg_twoAdds_returnsNewValue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -196,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Euler013_LargeSumTest.workshop" />
-        <item itemvalue="Gradle.Euler012_DivisibleTriangularNumTest.givenProblem" />
-        <item itemvalue="Gradle.Euler012_DivisibleTriangularNumTest.givenExample" />
-        <item itemvalue="Gradle.FactoredDecomposerTest.oneTwenty" />
-        <item itemvalue="Gradle.Euler012_DivisibleTriangularNumTest" />
+        <item itemvalue="Gradle.AggergatorTest" />
+        <item itemvalue="Gradle.AggergatorTest.threeConstructorArg_twoAdds_delegatesValues" />
+        <item itemvalue="Gradle.AggergatorTest.threeConstructorArg_twoAdds_returnsNewValue" />
+        <item itemvalue="Gradle.AggergatorTest.twoConstructorArg_twoAdds_returnsNewValue" />
+        <item itemvalue="Gradle.AggergatorTest.threeConstructorArg_oneAdds_delegatesValue" />
       </list>
     </recent_temporary>
   </component>
@@ -215,10 +215,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1588031159875">
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1588034893696">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1588031159875" />
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1588034893696" />
     <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587257811799">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -227,30 +227,30 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586823558584" />
-    <state width="1487" height="193" key="GridCell.Tab.0.bottom" timestamp="1587945765901">
+    <state width="1487" height="193" key="GridCell.Tab.0.bottom" timestamp="1588034269781">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="193" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587945765901" />
-    <state width="1487" height="193" key="GridCell.Tab.0.center" timestamp="1587945765900">
+    <state width="1487" height="193" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1588034269781" />
+    <state width="1487" height="193" key="GridCell.Tab.0.center" timestamp="1588034269778">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="193" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587945765900" />
-    <state width="1487" height="193" key="GridCell.Tab.0.left" timestamp="1587945765900">
+    <state width="1487" height="193" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1588034269778" />
+    <state width="1487" height="193" key="GridCell.Tab.0.left" timestamp="1588034269776">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="193" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587945765900" />
-    <state width="1487" height="193" key="GridCell.Tab.0.right" timestamp="1587945765901">
+    <state width="1487" height="193" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1588034269776" />
+    <state width="1487" height="193" key="GridCell.Tab.0.right" timestamp="1588034269779">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="193" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587945765901" />
+    <state width="1487" height="193" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1588034269779" />
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor" timestamp="1586823770886">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1586823770886" />
-    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588032066397">
+    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588036730638">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1588032066397" />
+    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1588036730638" />
     <state x="524" y="74" width="618" height="777" key="find.popup" timestamp="1587002549782">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

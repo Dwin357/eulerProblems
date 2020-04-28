@@ -29,7 +29,7 @@ package io.github.dwin357.euler;
  *      * needs N & L @ init
  *  - refactor "AryValueEnricher" to be a generic ary-reference (make sure old test still passes)
  *      * needs master-set (as single arg) @ init
- *  - collection consumer <need to write>
+ *  x - collection consumer <need to write>
  *      * needs seed balue at init
  *
  *   *************
