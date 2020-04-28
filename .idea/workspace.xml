@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler013_LargeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler013_LargeSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/tools/stream/consumer/Aggergator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler013_LargeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler013_LargeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,10 +215,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587326855234">
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1588031159875">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1587326855234" />
+    <state x="641" y="166" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1588031159875" />
     <state x="585" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587257811799">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -227,30 +227,30 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586823558584" />
-    <state width="1487" height="193" key="GridCell.Tab.0.bottom" timestamp="1587931061834">
+    <state width="1487" height="193" key="GridCell.Tab.0.bottom" timestamp="1587945765901">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="193" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587931061834" />
-    <state width="1487" height="193" key="GridCell.Tab.0.center" timestamp="1587931061833">
+    <state width="1487" height="193" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1587945765901" />
+    <state width="1487" height="193" key="GridCell.Tab.0.center" timestamp="1587945765900">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="193" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587931061833" />
-    <state width="1487" height="193" key="GridCell.Tab.0.left" timestamp="1587931061833">
+    <state width="1487" height="193" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1587945765900" />
+    <state width="1487" height="193" key="GridCell.Tab.0.left" timestamp="1587945765900">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="193" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587931061833" />
-    <state width="1487" height="193" key="GridCell.Tab.0.right" timestamp="1587931061834">
+    <state width="1487" height="193" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1587945765900" />
+    <state width="1487" height="193" key="GridCell.Tab.0.right" timestamp="1587945765901">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="193" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587931061834" />
+    <state width="1487" height="193" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1587945765901" />
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor" timestamp="1586823770886">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1586823770886" />
-    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587928843007">
+    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588032066397">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1587928843007" />
+    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1588032066397" />
     <state x="524" y="74" width="618" height="777" key="find.popup" timestamp="1587002549782">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
