@@ -10,12 +10,12 @@ public class Aggergator<C,K> implements StreamTerminal<C>, StreamConsumer<K> {
     private final BiFunction<C,K,C> cacheUpdate;
     private final StreamConsumer<C> downStream;
 
-    public Aggergator(C cache, BiFunction<C, K, C> cacheUpdate) {
-        this(cache, cacheUpdate, null);
+    public Aggergator(C startingCache, BiFunction<C, K, C> cacheUpdate) {
+        this(startingCache, cacheUpdate, null);
     }
 
-    public Aggergator(C cache, BiFunction<C, K, C> cacheUpdate, StreamConsumer<C> downStream) {
-        this.cache = cache;
+    public Aggergator(C startingCache, BiFunction<C, K, C> cacheUpdate, StreamConsumer<C> downStream) {
+        this.cache = startingCache;
         this.cacheUpdate = cacheUpdate;
         this.downStream = downStream;
     }
