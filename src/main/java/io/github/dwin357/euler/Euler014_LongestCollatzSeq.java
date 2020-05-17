@@ -20,19 +20,44 @@ import java.util.function.Function;
  *
  * 2020.04.29:2132
  *   - perhaps unsurprisingly, straight recursive led to a SO
+ *
+ * 2020.05.16:2028
+ *  Q 1: where does the SO happen
+ *      13->13: fine
+ *      1->1_000_000: SO
+ *      1->500_000: SO
+ *      1->250_000: SO
+ *      1->125_000: SO
+ *      1->75_000: answer (longest chain was 340)
+ *      1->100_000: answer (longest chain was 351)
+ *      1->110_000: answer (longest chain was 354)
+ *      1->120_000: SO
+ *      1->115_000: SO
+ *      1->112_000: answer (longest chain was 354)
+ *      1->113_000: answer (longest chain was 354)
+ *      1->114_000: SO
+ *   Q 2: the winning number I can calculate: 106_239 is 354 jumps (best under 113_000)
+ *
+ *   So...  cacheing is (potentially) causing a SO, so what if we limit the size of the cache?
+ *      ... 354 jumps == 230_540 items in cache
+ *   Limiting the size of the cache did not allow me to extend the range any...
+ *
  */
 public class Euler014_LongestCollatzSeq {
     public static int solve(int startingRange, int endingRange) {
         Map<Integer,Integer> cache = new HashMap<>();
         int bestCount = 0;
+        int bestI = -1;
         int position;
         for(int i=startingRange; i<=endingRange; i++) {
             position = recurseFunction(i, cache);
             if(position > bestCount) {
                 bestCount = position;
+                bestI = i;
             }
         }
-        return bestCount;
+//        return bestCount;
+        return bestI;
     }
 
     private static int recurseFunction(int num, Map<Integer,Integer> cache) {
@@ -47,8 +72,11 @@ public class Euler014_LongestCollatzSeq {
         }
         // is not chached
         int result = recurseFunction(next(num), cache) + 1; // +1 b/c "next" was called
-        Integer objResult = result;
-        cache.put(objNum, objResult);
+        //// only cache the first 230_540 entries (which seems to be my SO limit)
+        if(cache.size() <= 230_540) {
+            Integer objResult = result;
+            cache.put(objNum, objResult);
+        }
         return result;
     }
 

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="144a80ac-78b5-4cc4-b727-520bdfe90c5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler014_LongestCollatzSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dwin357/euler/Euler014_LongestCollatzSeq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler014_LongestCollatzSeqTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dwin357/euler/Euler014_LongestCollatzSeqTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +88,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="io.github.dwin357.tools.stream.consumer" />
       <recent name="io.github.dwin357.euler" />
+      <recent name="io.github.dwin357.tools.stream.consumer" />
       <recent name="io.github.dwin357.tools.stream.producer" />
       <recent name="io.github.dwin357.tools.xfrm" />
       <recent name="io.github.dwin357.tools.stream.junction" />
@@ -96,45 +98,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Euler013_LargeSumTest.testProblem">
-    <configuration name="AggergatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.AggergatorTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AryAccessorTest.delegatesSelectedIndexs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.tools.stream.consumer.AryAccessorTest.delegatesSelectedIndexs&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.Euler014_LongestCollatzSeqTest.solveProblem">
     <configuration name="Euler013_LargeSumTest.givenProblem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -173,12 +137,50 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'ProjectEuler.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Euler014_LongestCollatzSeqTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler014_LongestCollatzSeqTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Euler014_LongestCollatzSeqTest.givenProblem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler014_LongestCollatzSeqTest.givenProblem&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Euler014_LongestCollatzSeqTest.solveProblem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.dwin357.euler.Euler014_LongestCollatzSeqTest.solveProblem&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -194,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Euler014_LongestCollatzSeqTest.solveProblem" />
+        <item itemvalue="Gradle.Euler014_LongestCollatzSeqTest" />
+        <item itemvalue="Gradle.Euler014_LongestCollatzSeqTest.givenProblem" />
         <item itemvalue="Gradle.Euler013_LargeSumTest.testProblem" />
         <item itemvalue="Gradle.Euler013_LargeSumTest.givenProblem" />
-        <item itemvalue="Gradle.Tests in 'ProjectEuler.test'" />
-        <item itemvalue="Gradle.AryAccessorTest.delegatesSelectedIndexs" />
-        <item itemvalue="Gradle.AggergatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -229,30 +231,30 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="715" y="167" width="424" height="513" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1586823558584" />
-    <state width="1487" height="315" key="GridCell.Tab.0.bottom" timestamp="1588206463583">
+    <state width="1487" height="179" key="GridCell.Tab.0.bottom" timestamp="1589676925726">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="315" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1588206463583" />
-    <state width="1487" height="315" key="GridCell.Tab.0.center" timestamp="1588206463582">
+    <state width="1487" height="179" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1589676925726" />
+    <state width="1487" height="179" key="GridCell.Tab.0.center" timestamp="1589676925725">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="315" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1588206463582" />
-    <state width="1487" height="315" key="GridCell.Tab.0.left" timestamp="1588206463582">
+    <state width="1487" height="179" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1589676925725" />
+    <state width="1487" height="179" key="GridCell.Tab.0.left" timestamp="1589676925724">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="315" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1588206463582" />
-    <state width="1487" height="315" key="GridCell.Tab.0.right" timestamp="1588206463583">
+    <state width="1487" height="179" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1589676925724" />
+    <state width="1487" height="179" key="GridCell.Tab.0.right" timestamp="1589676925725">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="315" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1588206463583" />
+    <state width="1487" height="179" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1589676925725" />
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor" timestamp="1588202664530">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="346" y="68" width="1228" height="730" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1588202664530" />
-    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588036730638">
+    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588206981793">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1588036730638" />
+    <state x="574" y="179" width="618" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1533.873@67.27.1533.873" timestamp="1588206981793" />
     <state x="524" y="74" width="618" height="777" key="find.popup" timestamp="1587002549782">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

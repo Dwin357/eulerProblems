@@ -38,7 +38,8 @@ public class Euler014_LongestCollatzSeqTest {
     @Test
     public void solveProblem() {
         int startingRange = 1;
-        int endingRange = 1_000_000;
+//        int endingRange = 1_000_000;
+        int endingRange = 114_000;
         int expected = 10;
 
         int actual = Euler014_LongestCollatzSeq.solve(startingRange, endingRange);
